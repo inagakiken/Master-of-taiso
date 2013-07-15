@@ -1,0 +1,66 @@
+﻿2013/07/15 17:42:18 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\inagaki06hp\Documents\Visual Studio 2010\Projects\taiso\opencv_test\opencv_test.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "Debug\taiso.unsuccessfulbuild" を作成しています。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\OpenNI2\Include\\" /I"C:\Program Files (x86)\PrimeSense\NiTE2\Include\\" /I"C:\Program Files\opencv\build\\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\taiso.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\OpenNI2\Include\\" /I"C:\Program Files (x86)\PrimeSense\NiTE2\Include\\" /I"C:\Program Files\opencv\build\\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CircularBuffer.cpp Input.cpp InputBase.cpp InputModel.cpp memo.cpp PoseRule.cpp PoseRule2.cpp Skeleton.cpp SkeletonPoser.cpp SkeletonPoser2.cpp taiso.cpp
+         taiso.cpp
+         SkeletonPoser2.cpp
+     1>c:\users\inagaki06hp\documents\visual studio 2010\projects\taiso\opencv_test\skeletonposer2.cpp(26): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+         SkeletonPoser.cpp
+     1>c:\users\inagaki06hp\documents\visual studio 2010\projects\taiso\opencv_test\skeletonposer.cpp(26): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+         Skeleton.cpp
+         PoseRule2.cpp
+         PoseRule.cpp
+         memo.cpp
+         InputModel.cpp
+         InputBase.cpp
+         Input.cpp
+     1>c:\users\inagaki06hp\documents\visual studio 2010\projects\taiso\opencv_test\input.cpp(48): warning C4482: 非標準の拡張機能が使用されています: enum 'openni::SensorType' が限定名で使用されます
+     1>c:\users\inagaki06hp\documents\visual studio 2010\projects\taiso\opencv_test\input.cpp(126): warning C4482: 非標準の拡張機能が使用されています: enum 'nite::SkeletonState' が限定名で使用されます
+         CircularBuffer.cpp
+         コードを生成中...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\taiso.exe.embed.manifest.res" Debug\taiso_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\inagaki06hp\Documents\Visual Studio 2010\Projects\taiso\Debug\taiso.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\OpenNI2\Lib\\" /LIBPATH:"C:\Program Files (x86)\PrimeSense\NiTE2\Lib\\" /LIBPATH:"C:\Program Files\opencv\build\\x86\vc10\lib" OpenNI2.lib NiTE2.lib opencv_core245d.lib opencv_highgui245d.lib opencv_imgproc245d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\taiso.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\inagaki06hp\Documents\Visual Studio 2010\Projects\taiso\Debug\taiso.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\inagaki06hp\Documents\Visual Studio 2010\Projects\taiso\Debug\taiso.lib" /MACHINE:X86 Debug\taiso.exe.embed.manifest.res
+         Debug\CircularBuffer.obj
+         Debug\Input.obj
+         Debug\InputBase.obj
+         Debug\InputModel.obj
+         Debug\memo.obj
+         Debug\PoseRule.obj
+         Debug\PoseRule2.obj
+         Debug\Skeleton.obj
+         Debug\SkeletonPoser.obj
+         Debug\SkeletonPoser2.obj
+         Debug\taiso.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\taiso.exe.embed.manifest" /manifest Debug\taiso.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\taiso.exe.embed.manifest.res" Debug\taiso_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\inagaki06hp\Documents\Visual Studio 2010\Projects\taiso\Debug\taiso.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\OpenNI2\Lib\\" /LIBPATH:"C:\Program Files (x86)\PrimeSense\NiTE2\Lib\\" /LIBPATH:"C:\Program Files\opencv\build\\x86\vc10\lib" OpenNI2.lib NiTE2.lib opencv_core245d.lib opencv_highgui245d.lib opencv_imgproc245d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\taiso.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\inagaki06hp\Documents\Visual Studio 2010\Projects\taiso\Debug\taiso.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\inagaki06hp\Documents\Visual Studio 2010\Projects\taiso\Debug\taiso.lib" /MACHINE:X86 Debug\taiso.exe.embed.manifest.res
+         Debug\CircularBuffer.obj
+         Debug\Input.obj
+         Debug\InputBase.obj
+         Debug\InputModel.obj
+         Debug\memo.obj
+         Debug\PoseRule.obj
+         Debug\PoseRule2.obj
+         Debug\Skeleton.obj
+         Debug\SkeletonPoser.obj
+         Debug\SkeletonPoser2.obj
+         Debug\taiso.obj
+         Debug\stdafx.obj
+         opencv_test.vcxproj -> C:\Users\inagaki06hp\Documents\Visual Studio 2010\Projects\taiso\Debug\taiso.exe
+       FinalizeBuildStatus:
+         ファイル "Debug\taiso.unsuccessfulbuild" を削除しています。
+         "Debug\taiso.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\Users\inagaki06hp\Documents\Visual Studio 2010\Projects\taiso\opencv_test\opencv_test.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:09.52
