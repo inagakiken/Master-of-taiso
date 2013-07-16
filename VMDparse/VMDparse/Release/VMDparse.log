@@ -1,0 +1,21 @@
+﻿2013/07/16 10:10:27 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\nias\Git\endeza\Master-of-taiso\VMDparse\VMDparse\VMDparse.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "Release\VMDparse.unsuccessfulbuild" を作成しています。
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt VMDparse.cpp
+         VMDparse.cpp
+     1>VMDparse.cpp(12): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 'fopen' の宣言を確認してください。
+     1>VMDparse.cpp(21): error C2248: 'VMD::m_numTotalBoneKeyFrame' : private メンバー (クラス 'VMD' で宣言されている) にアクセスできません。
+                 c:\users\nias\git\endeza\master-of-taiso\vmdparse\vmdparse\VMDparse.h(114) : 'VMD::m_numTotalBoneKeyFrame' の宣言を確認してください。
+                 c:\users\nias\git\endeza\master-of-taiso\vmdparse\vmdparse\VMDparse.h(111) : 'VMD' の宣言を確認してください。
+     1>VMDparse.cpp(23): error C2039: 'boneFrame' : 'VMD' のメンバーではありません。
+                 c:\users\nias\git\endeza\master-of-taiso\vmdparse\vmdparse\VMDparse.h(111) : 'VMD' の宣言を確認してください。
+     1>VMDparse.cpp(644): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 'strcpy' の宣言を確認してください。
+     1>プロジェクト "C:\Users\nias\Git\endeza\Master-of-taiso\VMDparse\VMDparse\VMDparse.vcxproj" (build ターゲット) のビルドが終了しました -- 失敗。
+
+ビルドに失敗しました。
+
+経過時間 00:00:01.91
