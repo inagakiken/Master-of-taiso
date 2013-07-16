@@ -1,14 +1,18 @@
 #include "VMDparse.h"
 #include "MMDFiles_utils.h"
 
-FILE *texfp;
+FILE* texfp;
 
 void main(){
 	//taniwokaita
 	VMD vmd;
-	FILE *fp;
+	FILE* fp;
 	long long size;
 	unsigned char* data;
+	VMDFile_BoneFrame* bf;
+	
+	texfp=fopen("test.txt","w");
+
 	fp=fopen("reeradio_nobi.vmd","rb");
 	fseek(fp,0,2);
 	fgetpos(fp,&size);
@@ -16,14 +20,25 @@ void main(){
 	data = (unsigned char*)malloc((unsigned int)size);
 	fread(data,1,(unsigned int)size,fp);
 	fclose(fp);
+	
 	//ここからパース
 	data += sizeof(VMDFile_Header);//header through
 	vmd.m_numTotalBoneKeyFrame = *((unsigned long *) data);
 	data += sizeof(unsigned long);//totalbonekeyframe get
-	=(VMDFile_BoneFrame *)data;
+	bf=(VMDFile_BoneFrame*)malloc(sizeof(VMDFile_BoneFrame)*vmd.m_numTotalBoneKeyFrame);
+	*bf=*(VMDFile_BoneFrame*)data;
 	//ここまでパース
-	free(data);
 	
+	//bf test
+	for(int i=0;i<5;i++){
+		fprintf(texfp,"%f\n%f\n%f\n%f\n\n",bf[i].rot[0],bf[i].rot[1],bf[i].rot[2],bf[i].rot[3]);
+	}
+
+	//free
+	free(data);
+	free(bf);
+	fclose(texfp);
+
 	/*
 	VMD vmd;
 	BoneKeyFrame tBKF;
