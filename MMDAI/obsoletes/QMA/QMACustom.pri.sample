@@ -1,0 +1,34 @@
+# for creating Linux distribution
+linux:DEFINES += QMA_CONFIG_PATH="\"\\\"/etc\\\"\"" \
+                 QMA_PLUGIN_PATH="\"\\\"/usr/lib\\\"\"" \
+                 QMA_RESOURCE_PATH="\"\\\"/usr/share\\\"\""
+                 QMA_TRANSLATION_PATH=="\"\\\"/usr/share\\\"\""
+
+# bundling AquesTalk2 plugin if it's enabled
+!isEmpty($$(MMDAI_BUNDLE_AQUESTALK2)) {
+    DEFINES += QMA_BUNDLE_AQUESTALK2_PLUGIN
+	LIBS += -L../AquesTalk2Plugin \
+	        -lQMAAquesTalk2Plugin \
+	        -lAquesTalk2 -lAqKanji2Koe \
+	        -L$$(MMDAI_AQUESTALK2_DIR) \
+			-L$$(MMDAI_AQKANJI2KOE_DIR)
+}
+
+# for creating MacOSX distribution
+macx:CONFIG += x86 x86_64
+CONFIG(release, debug|release) {
+    DEFINES += QMA_BUNDLE_PLUGINS
+    macx {
+        CONFIG += static
+        # for QMAAudioPlugin
+        QT += phonon
+        # link libraries plugin requires
+        LIBS += -ljulius -lOpenJTalk -lHTSEngine -lportaudio \
+                -framework CoreAudio -framework CoreFoundation -framework CoreServices \
+                -framework AudioToolbox -framework AudioUnit
+        # link static plugins
+        LIBS += -L../StaticPlugins -lQMAAudioPlugin -lQMAJuliusPlugin -lQMALookAtPlugin \
+                -lQMAOpenJTalkPlugin -lQMAVIManagerPlugin
+    }
+}
+

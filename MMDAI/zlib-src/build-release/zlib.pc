@@ -1,0 +1,13 @@
+prefix=/home/tk/MMDAI/zlib-src/build-release/install-root
+exec_prefix=/home/tk/MMDAI/zlib-src/build-release/install-root
+libdir=/home/tk/MMDAI/zlib-src/build-release/install-root/lib
+sharedlibdir=/home/tk/MMDAI/zlib-src/build-release/install-root/lib
+includedir=/home/tk/MMDAI/zlib-src/build-release/install-root/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.7
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

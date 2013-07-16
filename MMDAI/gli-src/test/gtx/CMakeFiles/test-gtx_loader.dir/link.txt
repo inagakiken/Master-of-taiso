@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/test-gtx_loader.dir/gtx_loader.cpp.o  -o test-gtx_loader -rdynamic 

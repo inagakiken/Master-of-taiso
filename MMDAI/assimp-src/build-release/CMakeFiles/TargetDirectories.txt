@@ -1,0 +1,1 @@
+/home/tk/MMDAI/assimp-src/build-release/code/CMakeFiles/assimp.dir

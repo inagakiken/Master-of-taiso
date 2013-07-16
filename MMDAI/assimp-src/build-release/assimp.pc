@@ -1,0 +1,10 @@
+prefix=/home/tk/MMDAI/assimp-src/build-release/install-root
+exec_prefix=/home/tk/MMDAI/assimp-src/build-release/install-root/bin
+libdir=/home/tk/MMDAI/assimp-src/build-release/install-root/lib
+includedir=/home/tk/MMDAI/assimp-src/build-release/install-root/include/assimp
+
+Name: Assimp
+Description: Import various well-known 3D model formats in an uniform manner.
+Version: 2.0
+Libs: -L${libdir} -lassimp
+Cflags: -I${includedir} 

@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/licenses">
+        <file alias="HTSEngine">licenses/HTSEngine</file>
+        <file alias="Julius">licenses/Julius</file>
+        <file alias="mecab">licenses/mecab</file>
+        <file alias="OpenJTalk">licenses/OpenJTalk</file>
+        <file alias="PortAudio">licenses/PortAudio</file>
+        <file alias="Acoustic">licenses/Acoustic</file>
+        <file alias="Dictionary">licenses/Dictionary</file>
+        <file alias="libxml2">licenses/libxml2</file>
+        <file alias="libiconv">licenses/libiconv</file>
+        <file alias="zlib">licenses/zlib</file>
+    </qresource>
+    <qresource prefix="/lipsync">
+        <file alias="global">global.lip</file>
+    </qresource>
+    <qresource prefix="/shaders">
+        <file alias="stage.fsh">shaders/stage.fsh</file>
+        <file alias="stage.vsh">shaders/stage.vsh</file>
+    </qresource>
+</RCC>

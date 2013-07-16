@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/test-core_texture_cube.dir/core_texture_cube.cpp.o  -o test-core_texture_cube -rdynamic 

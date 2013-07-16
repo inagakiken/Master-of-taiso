@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/test-core_image.dir/core_image.cpp.o  -o test-core_image -rdynamic 

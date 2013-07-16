@@ -1,0 +1,645 @@
+Performing C SOURCE FILE Test HAVE_ALTIVEC_H_HDR failed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2265709670/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2265709670.dir/build.make CMakeFiles/cmTryCompileExec2265709670.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2265709670.dir/src.c.o
+/usr/bin/gcc   -g -O3  -DHAVE_ALTIVEC_H_HDR -maltivec   -o CMakeFiles/cmTryCompileExec2265709670.dir/src.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/src.c
+gcc: エラー: 認識できないコマンドラインオプション ‘-maltivec’ です
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+make[1]: *** [CMakeFiles/cmTryCompileExec2265709670.dir/src.c.o] エラー 1
+make: *** [cmTryCompileExec2265709670/fast] エラー 2
+
+Source file was:
+
+          #include <altivec.h>
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_ALTIVEC failed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1985336106/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1985336106.dir/build.make CMakeFiles/cmTryCompileExec1985336106.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1985336106.dir/src.c.o
+/usr/bin/gcc   -g -O3  -DHAVE_ALTIVEC -maltivec   -o CMakeFiles/cmTryCompileExec1985336106.dir/src.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/src.c
+gcc: エラー: 認識できないコマンドラインオプション ‘-maltivec’ です
+make[1]: *** [CMakeFiles/cmTryCompileExec1985336106.dir/src.c.o] エラー 1
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec1985336106/fast] エラー 2
+
+Source file was:
+
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { }
+Determining if the function strlcpy exists failed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1446666301/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1446666301.dir/build.make CMakeFiles/cmTryCompileExec1446666301.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1446666301.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=strlcpy   -o CMakeFiles/cmTryCompileExec1446666301.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1446666301
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1446666301.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=strlcpy    CMakeFiles/cmTryCompileExec1446666301.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1446666301 -rdynamic 
+CMakeFiles/cmTryCompileExec1446666301.dir/CheckFunctionExists.c.o: 関数 `main' 内:
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: `strlcpy' に対する定義されていない参照です
+collect2: エラー: ld はステータス 1 で終了しました
+make[1]: *** [cmTryCompileExec1446666301] エラー 1
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec1446666301/fast] エラー 2
+
+
+Determining if the function strlcat exists failed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2058327687/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2058327687.dir/build.make CMakeFiles/cmTryCompileExec2058327687.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2058327687.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=strlcat   -o CMakeFiles/cmTryCompileExec2058327687.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2058327687
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2058327687.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=strlcat    CMakeFiles/cmTryCompileExec2058327687.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2058327687 -rdynamic 
+CMakeFiles/cmTryCompileExec2058327687.dir/CheckFunctionExists.c.o: 関数 `main' 内:
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: `strlcat' に対する定義されていない参照です
+collect2: エラー: ld はステータス 1 で終了しました
+make[1]: *** [cmTryCompileExec2058327687] エラー 1
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec2058327687/fast] エラー 2
+
+
+Determining if the function _strrev exists failed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec841983536/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec841983536.dir/build.make CMakeFiles/cmTryCompileExec841983536.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec841983536.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=_strrev   -o CMakeFiles/cmTryCompileExec841983536.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec841983536
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec841983536.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=_strrev    CMakeFiles/cmTryCompileExec841983536.dir/CheckFunctionExists.c.o  -o cmTryCompileExec841983536 -rdynamic 
+CMakeFiles/cmTryCompileExec841983536.dir/CheckFunctionExists.c.o: 関数 `main' 内:
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: `_strrev' に対する定義されていない参照です
+collect2: エラー: ld はステータス 1 で終了しました
+make[1]: *** [cmTryCompileExec841983536] エラー 1
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec841983536/fast] エラー 2
+
+
+Determining if the function _strupr exists failed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1973256122/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1973256122.dir/build.make CMakeFiles/cmTryCompileExec1973256122.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1973256122.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=_strupr   -o CMakeFiles/cmTryCompileExec1973256122.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1973256122
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1973256122.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=_strupr    CMakeFiles/cmTryCompileExec1973256122.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1973256122 -rdynamic 
+CMakeFiles/cmTryCompileExec1973256122.dir/CheckFunctionExists.c.o: 関数 `main' 内:
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: `_strupr' に対する定義されていない参照です
+collect2: エラー: ld はステータス 1 で終了しました
+make[1]: *** [cmTryCompileExec1973256122] エラー 1
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec1973256122/fast] エラー 2
+
+
+Determining if the function _strlwr exists failed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3468187920/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3468187920.dir/build.make CMakeFiles/cmTryCompileExec3468187920.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3468187920.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=_strlwr   -o CMakeFiles/cmTryCompileExec3468187920.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3468187920
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3468187920.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=_strlwr    CMakeFiles/cmTryCompileExec3468187920.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3468187920 -rdynamic 
+CMakeFiles/cmTryCompileExec3468187920.dir/CheckFunctionExists.c.o: 関数 `main' 内:
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: `_strlwr' に対する定義されていない参照です
+collect2: エラー: ld はステータス 1 で終了しました
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+make[1]: *** [cmTryCompileExec3468187920] エラー 1
+make: *** [cmTryCompileExec3468187920/fast] エラー 2
+
+
+Determining if the function itoa exists failed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1117235904/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1117235904.dir/build.make CMakeFiles/cmTryCompileExec1117235904.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1117235904.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=itoa   -o CMakeFiles/cmTryCompileExec1117235904.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1117235904
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1117235904.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=itoa    CMakeFiles/cmTryCompileExec1117235904.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1117235904 -rdynamic 
+CMakeFiles/cmTryCompileExec1117235904.dir/CheckFunctionExists.c.o: 関数 `main' 内:
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: `itoa' に対する定義されていない参照です
+collect2: エラー: ld はステータス 1 で終了しました
+make[1]: *** [cmTryCompileExec1117235904] エラー 1
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec1117235904/fast] エラー 2
+
+
+Determining if the function _ltoa exists failed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3847910704/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3847910704.dir/build.make CMakeFiles/cmTryCompileExec3847910704.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3847910704.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=_ltoa   -o CMakeFiles/cmTryCompileExec3847910704.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3847910704
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3847910704.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=_ltoa    CMakeFiles/cmTryCompileExec3847910704.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3847910704 -rdynamic 
+CMakeFiles/cmTryCompileExec3847910704.dir/CheckFunctionExists.c.o: 関数 `main' 内:
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: `_ltoa' に対する定義されていない参照です
+collect2: エラー: ld はステータス 1 で終了しました
+make[1]: *** [cmTryCompileExec3847910704] エラー 1
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec3847910704/fast] エラー 2
+
+
+Determining if the function _uitoa exists failed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec295390963/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec295390963.dir/build.make CMakeFiles/cmTryCompileExec295390963.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec295390963.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=_uitoa   -o CMakeFiles/cmTryCompileExec295390963.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec295390963
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec295390963.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=_uitoa    CMakeFiles/cmTryCompileExec295390963.dir/CheckFunctionExists.c.o  -o cmTryCompileExec295390963 -rdynamic 
+CMakeFiles/cmTryCompileExec295390963.dir/CheckFunctionExists.c.o: 関数 `main' 内:
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: `_uitoa' に対する定義されていない参照です
+collect2: エラー: ld はステータス 1 で終了しました
+make[1]: *** [cmTryCompileExec295390963] エラー 1
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec295390963/fast] エラー 2
+
+
+Determining if the function _ultoa exists failed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1339892118/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1339892118.dir/build.make CMakeFiles/cmTryCompileExec1339892118.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1339892118.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=_ultoa   -o CMakeFiles/cmTryCompileExec1339892118.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1339892118
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1339892118.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=_ultoa    CMakeFiles/cmTryCompileExec1339892118.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1339892118 -rdynamic 
+CMakeFiles/cmTryCompileExec1339892118.dir/CheckFunctionExists.c.o: 関数 `main' 内:
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: `_ultoa' に対する定義されていない参照です
+collect2: エラー: ld はステータス 1 で終了しました
+make[1]: *** [cmTryCompileExec1339892118] エラー 1
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec1339892118/fast] エラー 2
+
+
+Determining if the function _i64toa exists failed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1440283215/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1440283215.dir/build.make CMakeFiles/cmTryCompileExec1440283215.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1440283215.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=_i64toa   -o CMakeFiles/cmTryCompileExec1440283215.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1440283215
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1440283215.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=_i64toa    CMakeFiles/cmTryCompileExec1440283215.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1440283215 -rdynamic 
+CMakeFiles/cmTryCompileExec1440283215.dir/CheckFunctionExists.c.o: 関数 `main' 内:
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: `_i64toa' に対する定義されていない参照です
+collect2: エラー: ld はステータス 1 で終了しました
+make[1]: *** [cmTryCompileExec1440283215] エラー 1
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec1440283215/fast] エラー 2
+
+
+Determining if the function _ui64toa exists failed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2689765952/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2689765952.dir/build.make CMakeFiles/cmTryCompileExec2689765952.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2689765952.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=_ui64toa   -o CMakeFiles/cmTryCompileExec2689765952.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2689765952
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2689765952.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=_ui64toa    CMakeFiles/cmTryCompileExec2689765952.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2689765952 -rdynamic 
+CMakeFiles/cmTryCompileExec2689765952.dir/CheckFunctionExists.c.o: 関数 `main' 内:
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: `_ui64toa' に対する定義されていない参照です
+collect2: エラー: ld はステータス 1 で終了しました
+make[1]: *** [cmTryCompileExec2689765952] エラー 1
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec2689765952/fast] エラー 2
+
+
+Determining if the function _stricmp exists failed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec454119634/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec454119634.dir/build.make CMakeFiles/cmTryCompileExec454119634.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec454119634.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=_stricmp   -o CMakeFiles/cmTryCompileExec454119634.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec454119634
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec454119634.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=_stricmp    CMakeFiles/cmTryCompileExec454119634.dir/CheckFunctionExists.c.o  -o cmTryCompileExec454119634 -rdynamic 
+CMakeFiles/cmTryCompileExec454119634.dir/CheckFunctionExists.c.o: 関数 `main' 内:
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: `_stricmp' に対する定義されていない参照です
+collect2: エラー: ld はステータス 1 で終了しました
+make[1]: *** [cmTryCompileExec454119634] エラー 1
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec454119634/fast] エラー 2
+
+
+Determining if the function _strnicmp exists failed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2134787570/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2134787570.dir/build.make CMakeFiles/cmTryCompileExec2134787570.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2134787570.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=_strnicmp   -o CMakeFiles/cmTryCompileExec2134787570.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2134787570
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2134787570.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=_strnicmp    CMakeFiles/cmTryCompileExec2134787570.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2134787570 -rdynamic 
+CMakeFiles/cmTryCompileExec2134787570.dir/CheckFunctionExists.c.o: 関数 `main' 内:
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: `_strnicmp' に対する定義されていない参照です
+collect2: エラー: ld はステータス 1 で終了しました
+make[1]: *** [cmTryCompileExec2134787570] エラー 1
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec2134787570/fast] エラー 2
+
+
+Determining if the function sysctlbyname exists failed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2564450114/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2564450114.dir/build.make CMakeFiles/cmTryCompileExec2564450114.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2564450114.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=sysctlbyname   -o CMakeFiles/cmTryCompileExec2564450114.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2564450114
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2564450114.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=sysctlbyname    CMakeFiles/cmTryCompileExec2564450114.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2564450114 -rdynamic 
+CMakeFiles/cmTryCompileExec2564450114.dir/CheckFunctionExists.c.o: 関数 `main' 内:
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: `sysctlbyname' に対する定義されていない参照です
+collect2: エラー: ld はステータス 1 で終了しました
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+make[1]: *** [cmTryCompileExec2564450114] エラー 1
+make: *** [cmTryCompileExec2564450114/fast] エラー 2
+
+
+Determining if the function iconv_open exists in the iconv failed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec479770767/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec479770767.dir/build.make CMakeFiles/cmTryCompileExec479770767.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec479770767.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=iconv_open   -o CMakeFiles/cmTryCompileExec479770767.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec479770767
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec479770767.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=iconv_open    CMakeFiles/cmTryCompileExec479770767.dir/CheckFunctionExists.c.o  -o cmTryCompileExec479770767 -rdynamic -liconv 
+/usr/bin/ld: -liconv が見つかりません
+collect2: エラー: ld はステータス 1 で終了しました
+make[1]: *** [cmTryCompileExec479770767] エラー 1
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec479770767/fast] エラー 2
+
+
+Determining if the function dlopen exists failed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec108565526/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec108565526.dir/build.make CMakeFiles/cmTryCompileExec108565526.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec108565526.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=dlopen   -o CMakeFiles/cmTryCompileExec108565526.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec108565526
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec108565526.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=dlopen    CMakeFiles/cmTryCompileExec108565526.dir/CheckFunctionExists.c.o  -o cmTryCompileExec108565526 -rdynamic 
+CMakeFiles/cmTryCompileExec108565526.dir/CheckFunctionExists.c.o: 関数 `main' 内:
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: `dlopen' に対する定義されていない参照です
+collect2: エラー: ld はステータス 1 で終了しました
+make[1]: *** [cmTryCompileExec108565526] エラー 1
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec108565526/fast] エラー 2
+
+
+Determining if the include file alsa/asoundlib.h exists failed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec242478283/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec242478283.dir/build.make CMakeFiles/cmTryCompileExec242478283.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec242478283.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -g -O3     -o CMakeFiles/cmTryCompileExec242478283.dir/CheckIncludeFile.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: 致命的エラー: alsa/asoundlib.h: そのようなファイルやディレクトリはありません
+コンパイルを停止しました。
+make[1]: *** [CMakeFiles/cmTryCompileExec242478283.dir/CheckIncludeFile.c.o] エラー 1
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec242478283/fast] エラー 2
+
+
+Determining if the include file audio/audiolib.h exists failed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2072208271/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2072208271.dir/build.make CMakeFiles/cmTryCompileExec2072208271.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2072208271.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -g -O3     -o CMakeFiles/cmTryCompileExec2072208271.dir/CheckIncludeFile.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: 致命的エラー: audio/audiolib.h: そのようなファイルやディレクトリはありません
+コンパイルを停止しました。
+make[1]: *** [CMakeFiles/cmTryCompileExec2072208271.dir/CheckIncludeFile.c.o] エラー 1
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec2072208271/fast] エラー 2
+
+
+Determining if the include file sndio.h exists failed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec859593559/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec859593559.dir/build.make CMakeFiles/cmTryCompileExec859593559.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec859593559.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -g -O3     -o CMakeFiles/cmTryCompileExec859593559.dir/CheckIncludeFile.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:19: 致命的エラー: sndio.h: そのようなファイルやディレクトリはありません
+コンパイルを停止しました。
+make[1]: *** [CMakeFiles/cmTryCompileExec859593559.dir/CheckIncludeFile.c.o] エラー 1
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec859593559/fast] エラー 2
+
+
+Determining if the include file X11/extensions/scrnsaver.h exists failed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3489882964/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3489882964.dir/build.make CMakeFiles/cmTryCompileExec3489882964.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3489882964.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -g -O3     -o CMakeFiles/cmTryCompileExec3489882964.dir/CheckIncludeFile.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:38: 致命的エラー: X11/extensions/scrnsaver.h: そのようなファイルやディレクトリはありません
+コンパイルを停止しました。
+make[1]: *** [CMakeFiles/cmTryCompileExec3489882964.dir/CheckIncludeFile.c.o] エラー 1
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec3489882964/fast] エラー 2
+
+
+Performing C SOURCE FILE Test HAVE_VIDEO_OPENGLES failed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1735413569/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1735413569.dir/build.make CMakeFiles/cmTryCompileExec1735413569.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1735413569.dir/src.c.o
+/usr/bin/gcc   -g -O3  -DHAVE_VIDEO_OPENGLES   -o CMakeFiles/cmTryCompileExec1735413569.dir/src.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/src.c
+/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/src.c:2:29: 致命的エラー: EGL/egl.h: そのようなファイルやディレクトリはありません
+コンパイルを停止しました。
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+make[1]: *** [CMakeFiles/cmTryCompileExec1735413569.dir/src.c.o] エラー 1
+make: *** [cmTryCompileExec1735413569/fast] エラー 2
+
+Source file was:
+
+        #include <EGL/egl.h>
+        int main (int argc, char** argv) {}
+Determining if the include file libudev.h exists failed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2567003776/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2567003776.dir/build.make CMakeFiles/cmTryCompileExec2567003776.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2567003776.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -g -O3     -o CMakeFiles/cmTryCompileExec2567003776.dir/CheckIncludeFile.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:21: 致命的エラー: libudev.h: そのようなファイルやディレクトリはありません
+コンパイルを停止しました。
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+make[1]: *** [CMakeFiles/cmTryCompileExec2567003776.dir/CheckIncludeFile.c.o] エラー 1
+make: *** [cmTryCompileExec2567003776/fast] エラー 2
+
+
+Determining if the include file dbus/dbus.h exists failed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec236102551/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec236102551.dir/build.make CMakeFiles/cmTryCompileExec236102551.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec236102551.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -g -O3     -o CMakeFiles/cmTryCompileExec236102551.dir/CheckIncludeFile.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:23: 致命的エラー: dbus/dbus.h: そのようなファイルやディレクトリはありません
+コンパイルを停止しました。
+make[1]: *** [CMakeFiles/cmTryCompileExec236102551.dir/CheckIncludeFile.c.o] エラー 1
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec236102551/fast] エラー 2
+
+
+Performing C SOURCE FILE Test HAVE_INPUT_TSLIB failed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1183308089/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1183308089.dir/build.make CMakeFiles/cmTryCompileExec1183308089.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1183308089.dir/src.c.o
+/usr/bin/gcc   -g -O3  -DHAVE_INPUT_TSLIB   -o CMakeFiles/cmTryCompileExec1183308089.dir/src.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/src.c
+/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/src.c:2:27: 致命的エラー: tslib.h: そのようなファイルやディレクトリはありません
+コンパイルを停止しました。
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+make[1]: *** [CMakeFiles/cmTryCompileExec1183308089.dir/src.c.o] エラー 1
+make: *** [cmTryCompileExec1183308089/fast] エラー 2
+
+Source file was:
+
+        #include "tslib.h"
+        int main(int argc, char** argv) { }
+Determining if the function hid_init exists in the usbhid failed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1622013759/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1622013759.dir/build.make CMakeFiles/cmTryCompileExec1622013759.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1622013759.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=hid_init   -o CMakeFiles/cmTryCompileExec1622013759.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1622013759
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1622013759.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=hid_init    CMakeFiles/cmTryCompileExec1622013759.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1622013759 -rdynamic -lusbhid 
+/usr/bin/ld: -lusbhid が見つかりません
+collect2: エラー: ld はステータス 1 で終了しました
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+make[1]: *** [cmTryCompileExec1622013759] エラー 1
+make: *** [cmTryCompileExec1622013759/fast] エラー 2
+
+
+Determining if the include file usb.h exists failed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2542416299/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2542416299.dir/build.make CMakeFiles/cmTryCompileExec2542416299.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2542416299.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -g -O3     -o CMakeFiles/cmTryCompileExec2542416299.dir/CheckIncludeFile.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:17: 致命的エラー: usb.h: そのようなファイルやディレクトリはありません
+コンパイルを停止しました。
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+make[1]: *** [CMakeFiles/cmTryCompileExec2542416299.dir/CheckIncludeFile.c.o] エラー 1
+make: *** [cmTryCompileExec2542416299/fast] エラー 2
+
+
+Determining if the include file libusb.h exists failed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec550604830/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec550604830.dir/build.make CMakeFiles/cmTryCompileExec550604830.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec550604830.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -g -O3     -o CMakeFiles/cmTryCompileExec550604830.dir/CheckIncludeFile.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:20: 致命的エラー: libusb.h: そのようなファイルやディレクトリはありません
+コンパイルを停止しました。
+make[1]: *** [CMakeFiles/cmTryCompileExec550604830.dir/CheckIncludeFile.c.o] エラー 1
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec550604830/fast] エラー 2
+
+
+Determining if the function hid_init exists in the usb failed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4174209794/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4174209794.dir/build.make CMakeFiles/cmTryCompileExec4174209794.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4174209794.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=hid_init   -o CMakeFiles/cmTryCompileExec4174209794.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4174209794
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4174209794.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=hid_init    CMakeFiles/cmTryCompileExec4174209794.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4174209794 -rdynamic -lusb 
+/usr/bin/ld: -lusb が見つかりません
+collect2: エラー: ld はステータス 1 で終了しました
+make[1]: *** [cmTryCompileExec4174209794] エラー 1
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec4174209794/fast] エラー 2
+
+
+Performing C SOURCE FILE Test HAVE_USBHID failed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec293931006/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec293931006.dir/build.make CMakeFiles/cmTryCompileExec293931006.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec293931006.dir/src.c.o
+/usr/bin/gcc   -g -O3  -DHAVE_USBHID   -o CMakeFiles/cmTryCompileExec293931006.dir/src.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/src.c
+/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/src.c:10:34: 致命的エラー: dev/usb/usb.h: そのようなファイルやディレクトリはありません
+コンパイルを停止しました。
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+make[1]: *** [CMakeFiles/cmTryCompileExec293931006.dir/src.c.o] エラー 1
+make: *** [cmTryCompileExec293931006/fast] エラー 2
+
+Source file was:
+
+       #include <sys/types.h>
+        #if defined(HAVE_USB_H)
+        #include <usb.h>
+        #endif
+        #ifdef __DragonFly__
+        # include <bus/usb/usb.h>
+        # include <bus/usb/usbhid.h>
+        #else
+        # include <dev/usb/usb.h>
+        # include <dev/usb/usbhid.h>
+        #endif
+        #if defined(HAVE_USBHID_H)
+        #include <usbhid.h>
+        #elif defined(HAVE_LIBUSB_H)
+        #include <libusb.h>
+        #elif defined(HAVE_LIBUSBHID_H)
+        #include <libusbhid.h>
+        #endif
+        int main(int argc, char **argv) {
+          struct report_desc *repdesc;
+          struct usb_ctl_report *repbuf;
+          hid_kind_t hidkind;
+          return 0;
+        }
+Performing C SOURCE FILE Test HAVE_PTHREAD_NP_H failed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4096579579/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4096579579.dir/build.make CMakeFiles/cmTryCompileExec4096579579.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4096579579.dir/src.c.o
+/usr/bin/gcc   -g -O3  -DHAVE_PTHREAD_NP_H -D_REENTRANT -pthread   -o CMakeFiles/cmTryCompileExec4096579579.dir/src.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/src.c
+/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/src.c:3:34: 致命的エラー: pthread_np.h: そのようなファイルやディレクトリはありません
+コンパイルを停止しました。
+make[1]: *** [CMakeFiles/cmTryCompileExec4096579579.dir/src.c.o] エラー 1
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec4096579579/fast] エラー 2
+
+Source file was:
+
+          #include <pthread.h>
+          #include <pthread_np.h>
+          int main(int argc, char** argv) { return 0; }
+Determining if the function pthread_set_name_np exists failed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3597102630/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3597102630.dir/build.make CMakeFiles/cmTryCompileExec3597102630.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3597102630.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=pthread_set_name_np -D_REENTRANT -pthread   -o CMakeFiles/cmTryCompileExec3597102630.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3597102630
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3597102630.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=pthread_set_name_np -D_REENTRANT -pthread    CMakeFiles/cmTryCompileExec3597102630.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3597102630 -rdynamic 
+CMakeFiles/cmTryCompileExec3597102630.dir/CheckFunctionExists.c.o: 関数 `main' 内:
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:11: `pthread_set_name_np' に対する定義されていない参照です
+collect2: エラー: ld はステータス 1 で終了しました
+make[1]: *** [cmTryCompileExec3597102630] エラー 1
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec3597102630/fast] エラー 2
+
+

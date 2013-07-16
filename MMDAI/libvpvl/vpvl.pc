@@ -1,0 +1,11 @@
+prefix=/usr/local
+libdir=/usr/local/lib
+includedir=/usr/local/include
+
+Name: libvpvl
+Requires: bullet
+Description: A library for loading MikuMikuDance's model (PMD) and motion (VMD).
+Version: 0.22.0 
+Libs: -L${libdir} -lvpvl
+Cflags: -I${includedir}
+

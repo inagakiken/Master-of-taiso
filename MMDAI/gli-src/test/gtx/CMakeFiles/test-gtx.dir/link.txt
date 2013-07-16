@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/test-gtx.dir/gtx.cpp.o  -o test-gtx -rdynamic 

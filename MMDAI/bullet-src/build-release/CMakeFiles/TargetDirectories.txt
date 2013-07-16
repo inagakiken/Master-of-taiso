@@ -1,0 +1,7 @@
+/home/tk/MMDAI/bullet-src/build-release/src/BulletCollision/CMakeFiles/BulletCollision.dir
+/home/tk/MMDAI/bullet-src/build-release/src/BulletDynamics/CMakeFiles/BulletDynamics.dir
+/home/tk/MMDAI/bullet-src/build-release/src/BulletMultiThreaded/CMakeFiles/BulletMultiThreaded.dir
+/home/tk/MMDAI/bullet-src/build-release/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir
+/home/tk/MMDAI/bullet-src/build-release/src/BulletMultiThreaded/GpuSoftBodySolvers/CPU/CMakeFiles/BulletSoftBodySolvers_CPU.dir
+/home/tk/MMDAI/bullet-src/build-release/src/LinearMath/CMakeFiles/LinearMath.dir
+/home/tk/MMDAI/bullet-src/build-release/src/MiniCL/CMakeFiles/MiniCL.dir

@@ -1,0 +1,2 @@
+/usr/bin/ar cr lib/libvpvl2qtcommon.a  CMakeFiles/vpvl2qtcommon.dir/src/qt/common/ApplicationContext.cc.o CMakeFiles/vpvl2qtcommon.dir/src/qt/common/DebugDrawer.cc.o CMakeFiles/vpvl2qtcommon.dir/src/qt/common/Util.cc.o CMakeFiles/vpvl2qtcommon.dir/src/qt/common/TextureDrawHelper.cc.o CMakeFiles/vpvl2qtcommon.dir/qrc_libvpvl2qtcommon.cxx.o
+/usr/bin/ranlib lib/libvpvl2qtcommon.a

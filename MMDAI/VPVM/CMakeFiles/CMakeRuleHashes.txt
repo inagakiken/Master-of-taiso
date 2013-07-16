@@ -1,0 +1,6 @@
+# Hashes of file build rules.
+80c0b7fd4c61e9e315a57b8872945a23 CMakeFiles/MMDAI2_automoc
+cc193535269cfcc95d8eb55c3e27ec55 CMakeFiles/vpvm_translation_target
+a914d26001464f67914a5565eecdee93 VPVM_ja.qm
+b60bef2347cbafa5c93fc959fe0fa2ca qrc_VPVM.cxx
+01e839c103bf714f335263af12e0ebe1 resources/translations/VPVM_ja.ts

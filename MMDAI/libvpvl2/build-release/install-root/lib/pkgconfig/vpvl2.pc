@@ -1,0 +1,10 @@
+prefix=/home/tk/MMDAI/libvpvl2/build-release/install-root
+libdir=/home/tk/MMDAI/libvpvl2/build-release/install-root/lib
+includedir=/home/tk/MMDAI/libvpvl2/build-release/install-root/include
+
+Name: libvpvl2
+Description: A library for loading MikuMikuDance's model (PMD/PMX) and motion (VMD).
+Version: 0.12.0 
+Libs: -L${libdir} -lvpvl2
+Cflags: -I${includedir}
+

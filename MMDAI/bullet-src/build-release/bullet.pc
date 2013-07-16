@@ -1,0 +1,6 @@
+Name: bullet
+Description: Bullet Continuous Collision Detection and Physics Library
+Requires:
+Version: 2.77
+Libs: -L/home/tk/MMDAI/bullet-src/build-release/install-root/lib -lBulletSoftBody -lBulletDynamics -lBulletCollision -lLinearMath
+Cflags: -I/home/tk/MMDAI/bullet-src/build-release/install-root/include/bullet

@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/test-gtc.dir/gtc.cpp.o  -o test-gtc -rdynamic 

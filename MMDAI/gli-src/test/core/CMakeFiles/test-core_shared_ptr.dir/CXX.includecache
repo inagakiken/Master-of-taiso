@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tk/Downloads/gli-0.4.1.0/test/core/core_shared_ptr.cpp
+gli/core/shared_ptr.hpp
+-
+
+gli/core/shared_ptr.hpp
+cassert
+-
+shared_ptr.inl
+gli/core/shared_ptr.inl
+
+gli/core/shared_ptr.inl
+

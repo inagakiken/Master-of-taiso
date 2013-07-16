@@ -1,0 +1,3 @@
+/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/SDL2.dir
+/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/SDL2-static.dir
+/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/SDL2main.dir

@@ -1,0 +1,1916 @@
+The system is: Linux - 3.5.0-23-generic - i686
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1306055551/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1306055551.dir/build.make CMakeFiles/cmTryCompileExec1306055551.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1306055551.dir/testCCompiler.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec1306055551.dir/testCCompiler.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec1306055551
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1306055551.dir/link.txt --verbose=1
+/usr/bin/gcc         CMakeFiles/cmTryCompileExec1306055551.dir/testCCompiler.c.o  -o cmTryCompileExec1306055551 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2671990042/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2671990042.dir/build.make CMakeFiles/cmTryCompileExec2671990042.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2671990042.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec2671990042.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec2671990042
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2671990042.dir/link.txt --verbose=1
+/usr/bin/gcc       -v CMakeFiles/cmTryCompileExec2671990042.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2671990042 -rdynamic  
+組み込み spec を使用しています。
+COLLECT_GCC=/usr/bin/gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/4.7/lto-wrapper
+ターゲット: i686-linux-gnu
+configure 設定: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.7.2-2ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.7/README.Bugs --enable-languages=c,c++,go,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.7 --enable-shared --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.7 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --enable-objc-gc --enable-targets=all --disable-werror --with-arch-32=i686 --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+スレッドモデル: posix
+gcc バージョン 4.7.2 (Ubuntu/Linaro 4.7.2-2ubuntu1) 
+COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.7/:/usr/lib/gcc/i686-linux-gnu/4.7/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.7/:/usr/lib/gcc/i686-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.7/:/usr/lib/gcc/i686-linux-gnu/4.7/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.7/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2671990042' '-rdynamic' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-linux-gnu/4.7/collect2 --sysroot=/ --build-id --no-add-needed --as-needed --eh-frame-hdr -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -z relro -o cmTryCompileExec2671990042 /usr/lib/gcc/i686-linux-gnu/4.7/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i686-linux-gnu/4.7/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/4.7/crtbegin.o -L/usr/lib/gcc/i686-linux-gnu/4.7 -L/usr/lib/gcc/i686-linux-gnu/4.7/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/4.7/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/4.7/../../.. CMakeFiles/cmTryCompileExec2671990042.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i686-linux-gnu/4.7/crtend.o /usr/lib/gcc/i686-linux-gnu/4.7/../../../i386-linux-gnu/crtn.o
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec2671990042/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec2671990042.dir/build.make CMakeFiles/cmTryCompileExec2671990042.dir/build]
+  ignore line: [make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります]
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec2671990042.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec2671990042.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec2671990042]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2671990042.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc       -v CMakeFiles/cmTryCompileExec2671990042.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2671990042 -rdynamic  ]
+  ignore line: [組み込み spec を使用しています。]
+  ignore line: [COLLECT_GCC=/usr/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/4.7/lto-wrapper]
+  ignore line: [ターゲット: i686-linux-gnu]
+  ignore line: [configure 設定: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.7.2-2ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.7/README.Bugs --enable-languages=c,c++,go,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.7 --enable-shared --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.7 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --enable-objc-gc --enable-targets=all --disable-werror --with-arch-32=i686 --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu]
+  ignore line: [スレッドモデル: posix]
+  ignore line: [gcc バージョン 4.7.2 (Ubuntu/Linaro 4.7.2-2ubuntu1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/4.7/:/usr/lib/gcc/i686-linux-gnu/4.7/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.7/:/usr/lib/gcc/i686-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/4.7/:/usr/lib/gcc/i686-linux-gnu/4.7/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/4.7/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/4.7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2671990042' '-rdynamic' '-mtune=generic' '-march=i686']
+  link line: [ /usr/lib/gcc/i686-linux-gnu/4.7/collect2 --sysroot=/ --build-id --no-add-needed --as-needed --eh-frame-hdr -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -z relro -o cmTryCompileExec2671990042 /usr/lib/gcc/i686-linux-gnu/4.7/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i686-linux-gnu/4.7/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/4.7/crtbegin.o -L/usr/lib/gcc/i686-linux-gnu/4.7 -L/usr/lib/gcc/i686-linux-gnu/4.7/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/4.7/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/4.7/../../.. CMakeFiles/cmTryCompileExec2671990042.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i686-linux-gnu/4.7/crtend.o /usr/lib/gcc/i686-linux-gnu/4.7/../../../i386-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/i686-linux-gnu/4.7/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2671990042] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.7/../../../i386-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.7/../../../i386-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.7/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.7] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.7]
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.7/../../../i386-linux-gnu] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.7/../../../i386-linux-gnu]
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.7/../../../../lib] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.7/../../../../lib]
+    arg [-L/lib/i386-linux-gnu] ==> dir [/lib/i386-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/i386-linux-gnu] ==> dir [/usr/lib/i386-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/i686-linux-gnu/4.7/../../..] ==> dir [/usr/lib/gcc/i686-linux-gnu/4.7/../../..]
+    arg [CMakeFiles/cmTryCompileExec2671990042.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.7/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/i686-linux-gnu/4.7/../../../i386-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse dir [/usr/lib/gcc/i686-linux-gnu/4.7] ==> [/usr/lib/gcc/i686-linux-gnu/4.7]
+  collapse dir [/usr/lib/gcc/i686-linux-gnu/4.7/../../../i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+  collapse dir [/usr/lib/gcc/i686-linux-gnu/4.7/../../../../lib] ==> [/usr/lib]
+  collapse dir [/lib/i386-linux-gnu] ==> [/lib/i386-linux-gnu]
+  collapse dir [/lib/../lib] ==> [/lib]
+  collapse dir [/usr/lib/i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+  collapse dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse dir [/usr/lib/gcc/i686-linux-gnu/4.7/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/i686-linux-gnu/4.7;/usr/lib/i386-linux-gnu;/usr/lib;/lib/i386-linux-gnu;/lib]
+
+
+Performing C SOURCE FILE Test HAVE_GCC_ATOMICS succeded with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1036251912/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1036251912.dir/build.make CMakeFiles/cmTryCompileExec1036251912.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1036251912.dir/src.c.o
+/usr/bin/gcc   -g -O3  -DHAVE_GCC_ATOMICS   -o CMakeFiles/cmTryCompileExec1036251912.dir/src.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1036251912
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1036251912.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DHAVE_GCC_ATOMICS    CMakeFiles/cmTryCompileExec1036251912.dir/src.c.o  -o cmTryCompileExec1036251912 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+Source file was:
+int main(int argc, char **argv) {
+        int a;
+        void *x, *y, *z;
+        __sync_lock_test_and_set(&a, 4);
+        __sync_lock_test_and_set(&x, y);
+        __sync_fetch_and_add(&a, 1);
+        __sync_bool_compare_and_swap(&a, 5, 10);
+        __sync_bool_compare_and_swap(&x, y, z); }
+Performing C SOURCE FILE Test HAVE_GCC_PREFERRED_STACK_BOUNDARY succeded with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1802962669/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1802962669.dir/build.make CMakeFiles/cmTryCompileExec1802962669.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1802962669.dir/src.c.o
+/usr/bin/gcc   -g -O3  -DHAVE_GCC_PREFERRED_STACK_BOUNDARY -mpreferred-stack-boundary=2   -o CMakeFiles/cmTryCompileExec1802962669.dir/src.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1802962669
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1802962669.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DHAVE_GCC_PREFERRED_STACK_BOUNDARY -mpreferred-stack-boundary=2    CMakeFiles/cmTryCompileExec1802962669.dir/src.c.o  -o cmTryCompileExec1802962669 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+Source file was:
+int x = 0; int main(int argc, char **argv) {}
+Performing C SOURCE FILE Test HAVE_GCC_FVISIBILITY succeded with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1659796561/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1659796561.dir/build.make CMakeFiles/cmTryCompileExec1659796561.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1659796561.dir/src.c.o
+/usr/bin/gcc   -g -O3  -DHAVE_GCC_FVISIBILITY -fvisibility=hidden -Werror   -o CMakeFiles/cmTryCompileExec1659796561.dir/src.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1659796561
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1659796561.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DHAVE_GCC_FVISIBILITY -fvisibility=hidden -Werror    CMakeFiles/cmTryCompileExec1659796561.dir/src.c.o  -o cmTryCompileExec1659796561 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+Source file was:
+
+      #if !defined(__GNUC__) || __GNUC__ < 4
+      #error SDL only uses visibility attributes in GCC 4 or newer
+      #endif
+      int main(int argc, char **argv) {}
+Performing C SOURCE FILE Test HAVE_GCC_WALL succeded with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3739905754/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3739905754.dir/build.make CMakeFiles/cmTryCompileExec3739905754.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3739905754.dir/src.c.o
+/usr/bin/gcc   -g -O3  -DHAVE_GCC_WALL   -Wall -o CMakeFiles/cmTryCompileExec3739905754.dir/src.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3739905754
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3739905754.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DHAVE_GCC_WALL    CMakeFiles/cmTryCompileExec3739905754.dir/src.c.o  -o cmTryCompileExec3739905754 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_MMX succeded with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3892421293/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3892421293.dir/build.make CMakeFiles/cmTryCompileExec3892421293.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3892421293.dir/src.c.o
+/usr/bin/gcc   -g -O3  -DHAVE_MMX -mmmx   -o CMakeFiles/cmTryCompileExec3892421293.dir/src.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3892421293
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3892421293.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DHAVE_MMX -mmmx    CMakeFiles/cmTryCompileExec3892421293.dir/src.c.o  -o cmTryCompileExec3892421293 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <mmintrin.h>
+          #endif
+          #else
+          #include <mmintrin.h>
+          #endif
+          #ifndef __MMX__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_3DNOW succeded with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2184254190/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2184254190.dir/build.make CMakeFiles/cmTryCompileExec2184254190.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2184254190.dir/src.c.o
+/usr/bin/gcc   -g -O3  -DHAVE_3DNOW -m3dnow   -o CMakeFiles/cmTryCompileExec2184254190.dir/src.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec2184254190
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2184254190.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DHAVE_3DNOW -m3dnow    CMakeFiles/cmTryCompileExec2184254190.dir/src.c.o  -o cmTryCompileExec2184254190 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+Source file was:
+
+          #include <mm3dnow.h>
+          #ifndef __3dNOW__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) {
+            void *p = 0;
+            _m_prefetch(p);
+          }
+Performing C SOURCE FILE Test HAVE_SSE succeded with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1798896208/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1798896208.dir/build.make CMakeFiles/cmTryCompileExec1798896208.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1798896208.dir/src.c.o
+/usr/bin/gcc   -g -O3  -DHAVE_SSE -msse   -o CMakeFiles/cmTryCompileExec1798896208.dir/src.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1798896208
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1798896208.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DHAVE_SSE -msse    CMakeFiles/cmTryCompileExec1798896208.dir/src.c.o  -o cmTryCompileExec1798896208 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <xmmintrin.h>
+          #endif
+          #else
+          #include <xmmintrin.h>
+          #endif
+          #ifndef __SSE__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { }
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1047588200/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1047588200.dir/build.make CMakeFiles/cmTryCompileExec1047588200.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1047588200.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -g -O3     -o CMakeFiles/cmTryCompileExec1047588200.dir/CheckIncludeFile.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1047588200
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1047588200.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3      CMakeFiles/cmTryCompileExec1047588200.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1047588200 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2269711810/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2269711810.dir/build.make CMakeFiles/cmTryCompileExec2269711810.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2269711810.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -g -O3     -o CMakeFiles/cmTryCompileExec2269711810.dir/CheckIncludeFile.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2269711810
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2269711810.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3      CMakeFiles/cmTryCompileExec2269711810.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2269711810 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec60832644/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec60832644.dir/build.make CMakeFiles/cmTryCompileExec60832644.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec60832644.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -g -O3     -o CMakeFiles/cmTryCompileExec60832644.dir/CheckIncludeFile.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec60832644
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec60832644.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3      CMakeFiles/cmTryCompileExec60832644.dir/CheckIncludeFile.c.o  -o cmTryCompileExec60832644 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1935752967/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1935752967.dir/build.make CMakeFiles/cmTryCompileExec1935752967.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1935752967.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -g -O3     -o CMakeFiles/cmTryCompileExec1935752967.dir/CheckIncludeFile.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1935752967
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1935752967.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3      CMakeFiles/cmTryCompileExec1935752967.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1935752967 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2918810719/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2918810719.dir/build.make CMakeFiles/cmTryCompileExec2918810719.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2918810719.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -g -O3     -o CMakeFiles/cmTryCompileExec2918810719.dir/CheckIncludeFile.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2918810719
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2918810719.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3      CMakeFiles/cmTryCompileExec2918810719.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2918810719 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3460344405/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3460344405.dir/build.make CMakeFiles/cmTryCompileExec3460344405.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3460344405.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -g -O3     -o CMakeFiles/cmTryCompileExec3460344405.dir/CheckIncludeFile.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3460344405
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3460344405.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3      CMakeFiles/cmTryCompileExec3460344405.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3460344405 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec837897657/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec837897657.dir/build.make CMakeFiles/cmTryCompileExec837897657.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec837897657.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -g -O3     -o CMakeFiles/cmTryCompileExec837897657.dir/CheckIncludeFile.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec837897657
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec837897657.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3      CMakeFiles/cmTryCompileExec837897657.dir/CheckIncludeFile.c.o  -o cmTryCompileExec837897657 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1311411085/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1311411085.dir/build.make CMakeFiles/cmTryCompileExec1311411085.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1311411085.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -g -O3     -o CMakeFiles/cmTryCompileExec1311411085.dir/CheckIncludeFile.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1311411085
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1311411085.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3      CMakeFiles/cmTryCompileExec1311411085.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1311411085 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3413730878/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3413730878.dir/build.make CMakeFiles/cmTryCompileExec3413730878.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3413730878.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -g -O3     -o CMakeFiles/cmTryCompileExec3413730878.dir/CheckIncludeFile.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3413730878
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3413730878.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3      CMakeFiles/cmTryCompileExec3413730878.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3413730878 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec507420884/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec507420884.dir/build.make CMakeFiles/cmTryCompileExec507420884.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec507420884.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -g -O3     -o CMakeFiles/cmTryCompileExec507420884.dir/CheckIncludeFile.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec507420884
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec507420884.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3      CMakeFiles/cmTryCompileExec507420884.dir/CheckIncludeFile.c.o  -o cmTryCompileExec507420884 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1625739704/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1625739704.dir/build.make CMakeFiles/cmTryCompileExec1625739704.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1625739704.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -g -O3     -o CMakeFiles/cmTryCompileExec1625739704.dir/CheckIncludeFile.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1625739704
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1625739704.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3      CMakeFiles/cmTryCompileExec1625739704.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1625739704 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the include file ctype.h exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec74483205/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec74483205.dir/build.make CMakeFiles/cmTryCompileExec74483205.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec74483205.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -g -O3     -o CMakeFiles/cmTryCompileExec74483205.dir/CheckIncludeFile.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec74483205
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec74483205.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3      CMakeFiles/cmTryCompileExec74483205.dir/CheckIncludeFile.c.o  -o cmTryCompileExec74483205 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the include file math.h exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1424597843/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1424597843.dir/build.make CMakeFiles/cmTryCompileExec1424597843.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1424597843.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -g -O3     -o CMakeFiles/cmTryCompileExec1424597843.dir/CheckIncludeFile.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1424597843
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1424597843.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3      CMakeFiles/cmTryCompileExec1424597843.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1424597843 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the include file iconv.h exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2745253878/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2745253878.dir/build.make CMakeFiles/cmTryCompileExec2745253878.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2745253878.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -g -O3     -o CMakeFiles/cmTryCompileExec2745253878.dir/CheckIncludeFile.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2745253878
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2745253878.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3      CMakeFiles/cmTryCompileExec2745253878.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2745253878 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1260548781/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1260548781.dir/build.make CMakeFiles/cmTryCompileExec1260548781.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1260548781.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -g -O3     -o CMakeFiles/cmTryCompileExec1260548781.dir/CheckIncludeFile.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1260548781
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1260548781.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3      CMakeFiles/cmTryCompileExec1260548781.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1260548781 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if files dlfcn.h;stdint.h;stddef.h;inttypes.h;stdlib.h;strings.h;string.h;float.h exist passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2916411/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2916411.dir/build.make CMakeFiles/cmTryCompileExec2916411.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2916411.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3     -o CMakeFiles/cmTryCompileExec2916411.dir/CheckIncludeFiles.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2916411
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2916411.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3      CMakeFiles/cmTryCompileExec2916411.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2916411 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1159993843/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1159993843.dir/build.make CMakeFiles/cmTryCompileExec1159993843.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1159993843.dir/SIZEOF_SIZE_T.c.o
+/usr/bin/gcc   -g -O3     -o CMakeFiles/cmTryCompileExec1159993843.dir/SIZEOF_SIZE_T.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CheckTypeSize/SIZEOF_SIZE_T.c
+Linking C executable cmTryCompileExec1159993843
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1159993843.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3      CMakeFiles/cmTryCompileExec1159993843.dir/SIZEOF_SIZE_T.c.o  -o cmTryCompileExec1159993843 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the M_PI exist passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3492313688/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3492313688.dir/build.make CMakeFiles/cmTryCompileExec3492313688.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3492313688.dir/CheckSymbolExists.c.o
+/usr/bin/gcc   -g -O3     -o CMakeFiles/cmTryCompileExec3492313688.dir/CheckSymbolExists.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3492313688
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3492313688.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3      CMakeFiles/cmTryCompileExec3492313688.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3492313688 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+File /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef M_PI
+  return ((int*)(&M_PI))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_MPROTECT succeded with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec84775301/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec84775301.dir/build.make CMakeFiles/cmTryCompileExec84775301.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec84775301.dir/src.c.o
+/usr/bin/gcc   -g -O3  -DHAVE_MPROTECT   -o CMakeFiles/cmTryCompileExec84775301.dir/src.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec84775301
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec84775301.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DHAVE_MPROTECT    CMakeFiles/cmTryCompileExec84775301.dir/src.c.o  -o cmTryCompileExec84775301 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+Source file was:
+#include <sys/types.h>
+                             #include <sys/mman.h>
+                             int main() { }
+Determining if the function strtod exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2622114105/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2622114105.dir/build.make CMakeFiles/cmTryCompileExec2622114105.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2622114105.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=strtod   -o CMakeFiles/cmTryCompileExec2622114105.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2622114105
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2622114105.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=strtod    CMakeFiles/cmTryCompileExec2622114105.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2622114105 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function malloc exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2805921416/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2805921416.dir/build.make CMakeFiles/cmTryCompileExec2805921416.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2805921416.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=malloc   -o CMakeFiles/cmTryCompileExec2805921416.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: 警告: 組み込み関数 ‘malloc’ と型が競合しています [デフォルトで有効]
+Linking C executable cmTryCompileExec2805921416
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2805921416.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=malloc    CMakeFiles/cmTryCompileExec2805921416.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2805921416 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function calloc exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec697830067/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec697830067.dir/build.make CMakeFiles/cmTryCompileExec697830067.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec697830067.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=calloc   -o CMakeFiles/cmTryCompileExec697830067.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: 警告: 組み込み関数 ‘calloc’ と型が競合しています [デフォルトで有効]
+Linking C executable cmTryCompileExec697830067
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec697830067.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=calloc    CMakeFiles/cmTryCompileExec697830067.dir/CheckFunctionExists.c.o  -o cmTryCompileExec697830067 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function realloc exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4210097727/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4210097727.dir/build.make CMakeFiles/cmTryCompileExec4210097727.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4210097727.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=realloc   -o CMakeFiles/cmTryCompileExec4210097727.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: 警告: 組み込み関数 ‘realloc’ と型が競合しています [デフォルトで有効]
+Linking C executable cmTryCompileExec4210097727
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4210097727.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=realloc    CMakeFiles/cmTryCompileExec4210097727.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4210097727 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function free exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec655293217/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec655293217.dir/build.make CMakeFiles/cmTryCompileExec655293217.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec655293217.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=free   -o CMakeFiles/cmTryCompileExec655293217.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: 警告: 組み込み関数 ‘free’ と型が競合しています [デフォルトで有効]
+Linking C executable cmTryCompileExec655293217
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec655293217.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=free    CMakeFiles/cmTryCompileExec655293217.dir/CheckFunctionExists.c.o  -o cmTryCompileExec655293217 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function getenv exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1305970155/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1305970155.dir/build.make CMakeFiles/cmTryCompileExec1305970155.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1305970155.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=getenv   -o CMakeFiles/cmTryCompileExec1305970155.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1305970155
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1305970155.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=getenv    CMakeFiles/cmTryCompileExec1305970155.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1305970155 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function setenv exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3676793641/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3676793641.dir/build.make CMakeFiles/cmTryCompileExec3676793641.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3676793641.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=setenv   -o CMakeFiles/cmTryCompileExec3676793641.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3676793641
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3676793641.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=setenv    CMakeFiles/cmTryCompileExec3676793641.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3676793641 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function putenv exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec540401261/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec540401261.dir/build.make CMakeFiles/cmTryCompileExec540401261.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec540401261.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=putenv   -o CMakeFiles/cmTryCompileExec540401261.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec540401261
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec540401261.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=putenv    CMakeFiles/cmTryCompileExec540401261.dir/CheckFunctionExists.c.o  -o cmTryCompileExec540401261 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function unsetenv exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3027626122/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3027626122.dir/build.make CMakeFiles/cmTryCompileExec3027626122.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3027626122.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=unsetenv   -o CMakeFiles/cmTryCompileExec3027626122.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3027626122
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3027626122.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=unsetenv    CMakeFiles/cmTryCompileExec3027626122.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3027626122 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function qsort exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2042796506/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2042796506.dir/build.make CMakeFiles/cmTryCompileExec2042796506.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2042796506.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=qsort   -o CMakeFiles/cmTryCompileExec2042796506.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2042796506
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2042796506.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=qsort    CMakeFiles/cmTryCompileExec2042796506.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2042796506 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function abs exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2707847113/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2707847113.dir/build.make CMakeFiles/cmTryCompileExec2707847113.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2707847113.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=abs   -o CMakeFiles/cmTryCompileExec2707847113.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: 警告: 組み込み関数 ‘abs’ と型が競合しています [デフォルトで有効]
+Linking C executable cmTryCompileExec2707847113
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2707847113.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=abs    CMakeFiles/cmTryCompileExec2707847113.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2707847113 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function bcopy exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1564621182/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1564621182.dir/build.make CMakeFiles/cmTryCompileExec1564621182.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1564621182.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=bcopy   -o CMakeFiles/cmTryCompileExec1564621182.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: 警告: 組み込み関数 ‘bcopy’ と型が競合しています [デフォルトで有効]
+Linking C executable cmTryCompileExec1564621182
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1564621182.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=bcopy    CMakeFiles/cmTryCompileExec1564621182.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1564621182 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function memset exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1720177261/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1720177261.dir/build.make CMakeFiles/cmTryCompileExec1720177261.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1720177261.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=memset   -o CMakeFiles/cmTryCompileExec1720177261.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: 警告: 組み込み関数 ‘memset’ と型が競合しています [デフォルトで有効]
+Linking C executable cmTryCompileExec1720177261
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1720177261.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=memset    CMakeFiles/cmTryCompileExec1720177261.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1720177261 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function memcpy exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1527952195/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1527952195.dir/build.make CMakeFiles/cmTryCompileExec1527952195.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1527952195.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=memcpy   -o CMakeFiles/cmTryCompileExec1527952195.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: 警告: 組み込み関数 ‘memcpy’ と型が競合しています [デフォルトで有効]
+Linking C executable cmTryCompileExec1527952195
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1527952195.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=memcpy    CMakeFiles/cmTryCompileExec1527952195.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1527952195 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function memmove exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1336161187/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1336161187.dir/build.make CMakeFiles/cmTryCompileExec1336161187.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1336161187.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=memmove   -o CMakeFiles/cmTryCompileExec1336161187.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: 警告: 組み込み関数 ‘memmove’ と型が競合しています [デフォルトで有効]
+Linking C executable cmTryCompileExec1336161187
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1336161187.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=memmove    CMakeFiles/cmTryCompileExec1336161187.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1336161187 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function memcmp exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4042385777/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4042385777.dir/build.make CMakeFiles/cmTryCompileExec4042385777.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4042385777.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=memcmp   -o CMakeFiles/cmTryCompileExec4042385777.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: 警告: 組み込み関数 ‘memcmp’ と型が競合しています [デフォルトで有効]
+Linking C executable cmTryCompileExec4042385777
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4042385777.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=memcmp    CMakeFiles/cmTryCompileExec4042385777.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4042385777 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function strlen exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2181573841/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2181573841.dir/build.make CMakeFiles/cmTryCompileExec2181573841.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2181573841.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=strlen   -o CMakeFiles/cmTryCompileExec2181573841.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: 警告: 組み込み関数 ‘strlen’ と型が競合しています [デフォルトで有効]
+Linking C executable cmTryCompileExec2181573841
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2181573841.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=strlen    CMakeFiles/cmTryCompileExec2181573841.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2181573841 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function strdup exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3898460487/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3898460487.dir/build.make CMakeFiles/cmTryCompileExec3898460487.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3898460487.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=strdup   -o CMakeFiles/cmTryCompileExec3898460487.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: 警告: 組み込み関数 ‘strdup’ と型が競合しています [デフォルトで有効]
+Linking C executable cmTryCompileExec3898460487
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3898460487.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=strdup    CMakeFiles/cmTryCompileExec3898460487.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3898460487 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function strchr exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3866073890/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3866073890.dir/build.make CMakeFiles/cmTryCompileExec3866073890.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3866073890.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=strchr   -o CMakeFiles/cmTryCompileExec3866073890.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: 警告: 組み込み関数 ‘strchr’ と型が競合しています [デフォルトで有効]
+Linking C executable cmTryCompileExec3866073890
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3866073890.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=strchr    CMakeFiles/cmTryCompileExec3866073890.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3866073890 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function strrchr exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1278717576/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1278717576.dir/build.make CMakeFiles/cmTryCompileExec1278717576.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1278717576.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=strrchr   -o CMakeFiles/cmTryCompileExec1278717576.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: 警告: 組み込み関数 ‘strrchr’ と型が競合しています [デフォルトで有効]
+Linking C executable cmTryCompileExec1278717576
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1278717576.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=strrchr    CMakeFiles/cmTryCompileExec1278717576.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1278717576 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function strstr exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec541916003/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec541916003.dir/build.make CMakeFiles/cmTryCompileExec541916003.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec541916003.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=strstr   -o CMakeFiles/cmTryCompileExec541916003.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: 警告: 組み込み関数 ‘strstr’ と型が競合しています [デフォルトで有効]
+Linking C executable cmTryCompileExec541916003
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec541916003.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=strstr    CMakeFiles/cmTryCompileExec541916003.dir/CheckFunctionExists.c.o  -o cmTryCompileExec541916003 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1956974881/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1956974881.dir/build.make CMakeFiles/cmTryCompileExec1956974881.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1956974881.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=strtol   -o CMakeFiles/cmTryCompileExec1956974881.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1956974881
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1956974881.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=strtol    CMakeFiles/cmTryCompileExec1956974881.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1956974881 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function strtoul exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3582030965/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3582030965.dir/build.make CMakeFiles/cmTryCompileExec3582030965.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3582030965.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=strtoul   -o CMakeFiles/cmTryCompileExec3582030965.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3582030965
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3582030965.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=strtoul    CMakeFiles/cmTryCompileExec3582030965.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3582030965 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function strtoll exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2102011905/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2102011905.dir/build.make CMakeFiles/cmTryCompileExec2102011905.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2102011905.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=strtoll   -o CMakeFiles/cmTryCompileExec2102011905.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2102011905
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2102011905.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=strtoll    CMakeFiles/cmTryCompileExec2102011905.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2102011905 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function strtoull exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1505888372/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1505888372.dir/build.make CMakeFiles/cmTryCompileExec1505888372.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1505888372.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=strtoull   -o CMakeFiles/cmTryCompileExec1505888372.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1505888372
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1505888372.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=strtoull    CMakeFiles/cmTryCompileExec1505888372.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1505888372 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function atoi exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec595200033/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec595200033.dir/build.make CMakeFiles/cmTryCompileExec595200033.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec595200033.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=atoi   -o CMakeFiles/cmTryCompileExec595200033.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec595200033
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec595200033.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=atoi    CMakeFiles/cmTryCompileExec595200033.dir/CheckFunctionExists.c.o  -o cmTryCompileExec595200033 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function atof exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3859083349/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3859083349.dir/build.make CMakeFiles/cmTryCompileExec3859083349.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3859083349.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=atof   -o CMakeFiles/cmTryCompileExec3859083349.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3859083349
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3859083349.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=atof    CMakeFiles/cmTryCompileExec3859083349.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3859083349 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function strcmp exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec236752176/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec236752176.dir/build.make CMakeFiles/cmTryCompileExec236752176.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec236752176.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=strcmp   -o CMakeFiles/cmTryCompileExec236752176.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: 警告: 組み込み関数 ‘strcmp’ と型が競合しています [デフォルトで有効]
+Linking C executable cmTryCompileExec236752176
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec236752176.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=strcmp    CMakeFiles/cmTryCompileExec236752176.dir/CheckFunctionExists.c.o  -o cmTryCompileExec236752176 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function strncmp exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3908554588/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3908554588.dir/build.make CMakeFiles/cmTryCompileExec3908554588.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3908554588.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=strncmp   -o CMakeFiles/cmTryCompileExec3908554588.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: 警告: 組み込み関数 ‘strncmp’ と型が競合しています [デフォルトで有効]
+Linking C executable cmTryCompileExec3908554588
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3908554588.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=strncmp    CMakeFiles/cmTryCompileExec3908554588.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3908554588 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function strcasecmp exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec720870558/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec720870558.dir/build.make CMakeFiles/cmTryCompileExec720870558.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec720870558.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=strcasecmp   -o CMakeFiles/cmTryCompileExec720870558.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: 警告: 組み込み関数 ‘strcasecmp’ と型が競合しています [デフォルトで有効]
+Linking C executable cmTryCompileExec720870558
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec720870558.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=strcasecmp    CMakeFiles/cmTryCompileExec720870558.dir/CheckFunctionExists.c.o  -o cmTryCompileExec720870558 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function strncasecmp exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3102144199/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3102144199.dir/build.make CMakeFiles/cmTryCompileExec3102144199.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3102144199.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=strncasecmp   -o CMakeFiles/cmTryCompileExec3102144199.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: 警告: 組み込み関数 ‘strncasecmp’ と型が競合しています [デフォルトで有効]
+Linking C executable cmTryCompileExec3102144199
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3102144199.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=strncasecmp    CMakeFiles/cmTryCompileExec3102144199.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3102144199 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function sscanf exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2607446636/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2607446636.dir/build.make CMakeFiles/cmTryCompileExec2607446636.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2607446636.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=sscanf   -o CMakeFiles/cmTryCompileExec2607446636.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: 警告: 組み込み関数 ‘sscanf’ と型が競合しています [デフォルトで有効]
+Linking C executable cmTryCompileExec2607446636
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2607446636.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=sscanf    CMakeFiles/cmTryCompileExec2607446636.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2607446636 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function snprintf exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1200225425/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1200225425.dir/build.make CMakeFiles/cmTryCompileExec1200225425.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1200225425.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=snprintf   -o CMakeFiles/cmTryCompileExec1200225425.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: 警告: 組み込み関数 ‘snprintf’ と型が競合しています [デフォルトで有効]
+Linking C executable cmTryCompileExec1200225425
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1200225425.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=snprintf    CMakeFiles/cmTryCompileExec1200225425.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1200225425 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function vsnprintf exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2374706220/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2374706220.dir/build.make CMakeFiles/cmTryCompileExec2374706220.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2374706220.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=vsnprintf   -o CMakeFiles/cmTryCompileExec2374706220.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: 警告: 組み込み関数 ‘vsnprintf’ と型が競合しています [デフォルトで有効]
+Linking C executable cmTryCompileExec2374706220
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2374706220.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=vsnprintf    CMakeFiles/cmTryCompileExec2374706220.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2374706220 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec822113328/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec822113328.dir/build.make CMakeFiles/cmTryCompileExec822113328.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec822113328.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=fseeko   -o CMakeFiles/cmTryCompileExec822113328.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec822113328
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec822113328.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=fseeko    CMakeFiles/cmTryCompileExec822113328.dir/CheckFunctionExists.c.o  -o cmTryCompileExec822113328 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function fseeko64 exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4096870514/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4096870514.dir/build.make CMakeFiles/cmTryCompileExec4096870514.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4096870514.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=fseeko64   -o CMakeFiles/cmTryCompileExec4096870514.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4096870514
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4096870514.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=fseeko64    CMakeFiles/cmTryCompileExec4096870514.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4096870514 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function sigaction exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4126417794/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4126417794.dir/build.make CMakeFiles/cmTryCompileExec4126417794.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4126417794.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=sigaction   -o CMakeFiles/cmTryCompileExec4126417794.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4126417794
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4126417794.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=sigaction    CMakeFiles/cmTryCompileExec4126417794.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4126417794 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function setjmp exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2721353701/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2721353701.dir/build.make CMakeFiles/cmTryCompileExec2721353701.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2721353701.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=setjmp   -o CMakeFiles/cmTryCompileExec2721353701.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2721353701
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2721353701.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=setjmp    CMakeFiles/cmTryCompileExec2721353701.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2721353701 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function nanosleep exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec137133785/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec137133785.dir/build.make CMakeFiles/cmTryCompileExec137133785.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec137133785.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=nanosleep   -o CMakeFiles/cmTryCompileExec137133785.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec137133785
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec137133785.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=nanosleep    CMakeFiles/cmTryCompileExec137133785.dir/CheckFunctionExists.c.o  -o cmTryCompileExec137133785 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function sysconf exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2301847129/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2301847129.dir/build.make CMakeFiles/cmTryCompileExec2301847129.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2301847129.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=sysconf   -o CMakeFiles/cmTryCompileExec2301847129.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2301847129
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2301847129.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=sysconf    CMakeFiles/cmTryCompileExec2301847129.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2301847129 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function pow exists in the m passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1669579640/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1669579640.dir/build.make CMakeFiles/cmTryCompileExec1669579640.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1669579640.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=pow   -o CMakeFiles/cmTryCompileExec1669579640.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: 警告: 組み込み関数 ‘pow’ と型が競合しています [デフォルトで有効]
+Linking C executable cmTryCompileExec1669579640
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1669579640.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=pow    CMakeFiles/cmTryCompileExec1669579640.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1669579640 -rdynamic -lm 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function atan exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec101680754/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec101680754.dir/build.make CMakeFiles/cmTryCompileExec101680754.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec101680754.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=atan   -o CMakeFiles/cmTryCompileExec101680754.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: 警告: 組み込み関数 ‘atan’ と型が競合しています [デフォルトで有効]
+Linking C executable cmTryCompileExec101680754
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec101680754.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=atan    CMakeFiles/cmTryCompileExec101680754.dir/CheckFunctionExists.c.o  -o cmTryCompileExec101680754 -rdynamic -lm 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function atan2 exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3694051883/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3694051883.dir/build.make CMakeFiles/cmTryCompileExec3694051883.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3694051883.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=atan2   -o CMakeFiles/cmTryCompileExec3694051883.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: 警告: 組み込み関数 ‘atan2’ と型が競合しています [デフォルトで有効]
+Linking C executable cmTryCompileExec3694051883
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3694051883.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=atan2    CMakeFiles/cmTryCompileExec3694051883.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3694051883 -rdynamic -lm 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function ceil exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4294300368/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4294300368.dir/build.make CMakeFiles/cmTryCompileExec4294300368.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4294300368.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=ceil   -o CMakeFiles/cmTryCompileExec4294300368.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: 警告: 組み込み関数 ‘ceil’ と型が競合しています [デフォルトで有効]
+Linking C executable cmTryCompileExec4294300368
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4294300368.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=ceil    CMakeFiles/cmTryCompileExec4294300368.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4294300368 -rdynamic -lm 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function copysign exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2523981092/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2523981092.dir/build.make CMakeFiles/cmTryCompileExec2523981092.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2523981092.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=copysign   -o CMakeFiles/cmTryCompileExec2523981092.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: 警告: 組み込み関数 ‘copysign’ と型が競合しています [デフォルトで有効]
+Linking C executable cmTryCompileExec2523981092
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2523981092.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=copysign    CMakeFiles/cmTryCompileExec2523981092.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2523981092 -rdynamic -lm 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function cos exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3438597476/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3438597476.dir/build.make CMakeFiles/cmTryCompileExec3438597476.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3438597476.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=cos   -o CMakeFiles/cmTryCompileExec3438597476.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: 警告: 組み込み関数 ‘cos’ と型が競合しています [デフォルトで有効]
+Linking C executable cmTryCompileExec3438597476
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3438597476.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=cos    CMakeFiles/cmTryCompileExec3438597476.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3438597476 -rdynamic -lm 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function cosf exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2039100582/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2039100582.dir/build.make CMakeFiles/cmTryCompileExec2039100582.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2039100582.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=cosf   -o CMakeFiles/cmTryCompileExec2039100582.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: 警告: 組み込み関数 ‘cosf’ と型が競合しています [デフォルトで有効]
+Linking C executable cmTryCompileExec2039100582
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2039100582.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=cosf    CMakeFiles/cmTryCompileExec2039100582.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2039100582 -rdynamic -lm 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function fabs exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3086986470/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3086986470.dir/build.make CMakeFiles/cmTryCompileExec3086986470.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3086986470.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=fabs   -o CMakeFiles/cmTryCompileExec3086986470.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: 警告: 組み込み関数 ‘fabs’ と型が競合しています [デフォルトで有効]
+Linking C executable cmTryCompileExec3086986470
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3086986470.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=fabs    CMakeFiles/cmTryCompileExec3086986470.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3086986470 -rdynamic -lm 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function floor exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3599990081/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3599990081.dir/build.make CMakeFiles/cmTryCompileExec3599990081.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3599990081.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=floor   -o CMakeFiles/cmTryCompileExec3599990081.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: 警告: 組み込み関数 ‘floor’ と型が競合しています [デフォルトで有効]
+Linking C executable cmTryCompileExec3599990081
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3599990081.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=floor    CMakeFiles/cmTryCompileExec3599990081.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3599990081 -rdynamic -lm 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function log exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2872923286/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2872923286.dir/build.make CMakeFiles/cmTryCompileExec2872923286.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2872923286.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=log   -o CMakeFiles/cmTryCompileExec2872923286.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: 警告: 組み込み関数 ‘log’ と型が競合しています [デフォルトで有効]
+Linking C executable cmTryCompileExec2872923286
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2872923286.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=log    CMakeFiles/cmTryCompileExec2872923286.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2872923286 -rdynamic -lm 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function pow exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec789432577/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec789432577.dir/build.make CMakeFiles/cmTryCompileExec789432577.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec789432577.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=pow   -o CMakeFiles/cmTryCompileExec789432577.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: 警告: 組み込み関数 ‘pow’ と型が競合しています [デフォルトで有効]
+Linking C executable cmTryCompileExec789432577
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec789432577.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=pow    CMakeFiles/cmTryCompileExec789432577.dir/CheckFunctionExists.c.o  -o cmTryCompileExec789432577 -rdynamic -lm 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function scalbn exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2108000516/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2108000516.dir/build.make CMakeFiles/cmTryCompileExec2108000516.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2108000516.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=scalbn   -o CMakeFiles/cmTryCompileExec2108000516.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: 警告: 組み込み関数 ‘scalbn’ と型が競合しています [デフォルトで有効]
+Linking C executable cmTryCompileExec2108000516
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2108000516.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=scalbn    CMakeFiles/cmTryCompileExec2108000516.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2108000516 -rdynamic -lm 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function sin exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3972704480/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3972704480.dir/build.make CMakeFiles/cmTryCompileExec3972704480.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3972704480.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=sin   -o CMakeFiles/cmTryCompileExec3972704480.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: 警告: 組み込み関数 ‘sin’ と型が競合しています [デフォルトで有効]
+Linking C executable cmTryCompileExec3972704480
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3972704480.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=sin    CMakeFiles/cmTryCompileExec3972704480.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3972704480 -rdynamic -lm 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function sinf exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec94894135/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec94894135.dir/build.make CMakeFiles/cmTryCompileExec94894135.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec94894135.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=sinf   -o CMakeFiles/cmTryCompileExec94894135.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: 警告: 組み込み関数 ‘sinf’ と型が競合しています [デフォルトで有効]
+Linking C executable cmTryCompileExec94894135
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec94894135.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=sinf    CMakeFiles/cmTryCompileExec94894135.dir/CheckFunctionExists.c.o  -o cmTryCompileExec94894135 -rdynamic -lm 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function sqrt exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1905102176/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1905102176.dir/build.make CMakeFiles/cmTryCompileExec1905102176.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1905102176.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=sqrt   -o CMakeFiles/cmTryCompileExec1905102176.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: 警告: 組み込み関数 ‘sqrt’ と型が競合しています [デフォルトで有効]
+Linking C executable cmTryCompileExec1905102176
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1905102176.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=sqrt    CMakeFiles/cmTryCompileExec1905102176.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1905102176 -rdynamic -lm 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Performing C SOURCE FILE Test HAVE_SA_SIGACTION succeded with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1333052187/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1333052187.dir/build.make CMakeFiles/cmTryCompileExec1333052187.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1333052187.dir/src.c.o
+/usr/bin/gcc   -g -O3  -DHAVE_SA_SIGACTION   -o CMakeFiles/cmTryCompileExec1333052187.dir/src.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1333052187
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1333052187.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DHAVE_SA_SIGACTION    CMakeFiles/cmTryCompileExec1333052187.dir/src.c.o  -o cmTryCompileExec1333052187 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+Source file was:
+
+#include <signal.h>
+
+int main()
+{
+   struct sigaction* tmp;
+   tmp->sa_sigaction;
+  return 0;
+}
+
+Determining if the function dlopen exists in the dl passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2671633469/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2671633469.dir/build.make CMakeFiles/cmTryCompileExec2671633469.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2671633469.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=dlopen   -o CMakeFiles/cmTryCompileExec2671633469.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2671633469
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2671633469.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=dlopen    CMakeFiles/cmTryCompileExec2671633469.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2671633469 -rdynamic -ldl 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Performing C SOURCE FILE Test OSS_FOUND succeded with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4136338393/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4136338393.dir/build.make CMakeFiles/cmTryCompileExec4136338393.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4136338393.dir/src.c.o
+/usr/bin/gcc   -g -O3  -DOSS_FOUND   -o CMakeFiles/cmTryCompileExec4136338393.dir/src.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec4136338393
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4136338393.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DOSS_FOUND    CMakeFiles/cmTryCompileExec4136338393.dir/src.c.o  -o cmTryCompileExec4136338393 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+Source file was:
+
+        #include <sys/soundcard.h>
+        int main() { int arg = SNDCTL_DSP_SETFRAGMENT; }
+Determining if the include file X11/Xcursor/Xcursor.h exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2887562079/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2887562079.dir/build.make CMakeFiles/cmTryCompileExec2887562079.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2887562079.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -g -O3     -o CMakeFiles/cmTryCompileExec2887562079.dir/CheckIncludeFile.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2887562079
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2887562079.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3      CMakeFiles/cmTryCompileExec2887562079.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2887562079 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the include file X11/extensions/Xinerama.h exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2781724904/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2781724904.dir/build.make CMakeFiles/cmTryCompileExec2781724904.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2781724904.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -g -O3     -o CMakeFiles/cmTryCompileExec2781724904.dir/CheckIncludeFile.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2781724904
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2781724904.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3      CMakeFiles/cmTryCompileExec2781724904.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2781724904 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the include file X11/extensions/XInput2.h exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1432573467/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1432573467.dir/build.make CMakeFiles/cmTryCompileExec1432573467.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1432573467.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -g -O3     -o CMakeFiles/cmTryCompileExec1432573467.dir/CheckIncludeFile.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1432573467
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1432573467.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3      CMakeFiles/cmTryCompileExec1432573467.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1432573467 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the include file X11/extensions/Xrandr.h exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4027422845/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4027422845.dir/build.make CMakeFiles/cmTryCompileExec4027422845.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4027422845.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -g -O3     -o CMakeFiles/cmTryCompileExec4027422845.dir/CheckIncludeFile.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec4027422845
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4027422845.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3      CMakeFiles/cmTryCompileExec4027422845.dir/CheckIncludeFile.c.o  -o cmTryCompileExec4027422845 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the include file X11/extensions/Xrender.h exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec75220247/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec75220247.dir/build.make CMakeFiles/cmTryCompileExec75220247.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec75220247.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -g -O3     -o CMakeFiles/cmTryCompileExec75220247.dir/CheckIncludeFile.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec75220247
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec75220247.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3      CMakeFiles/cmTryCompileExec75220247.dir/CheckIncludeFile.c.o  -o cmTryCompileExec75220247 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the include file X11/extensions/shape.h exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2395012489/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2395012489.dir/build.make CMakeFiles/cmTryCompileExec2395012489.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2395012489.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -g -O3     -o CMakeFiles/cmTryCompileExec2395012489.dir/CheckIncludeFile.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2395012489
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2395012489.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3      CMakeFiles/cmTryCompileExec2395012489.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2395012489 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if files X11/Xlib.h;X11/extensions/xf86vmode.h exist passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec102902362/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec102902362.dir/build.make CMakeFiles/cmTryCompileExec102902362.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec102902362.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -g -O3     -o CMakeFiles/cmTryCompileExec102902362.dir/CheckIncludeFiles.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec102902362
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec102902362.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3      CMakeFiles/cmTryCompileExec102902362.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec102902362 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3922943926/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3922943926.dir/build.make CMakeFiles/cmTryCompileExec3922943926.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3922943926.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTryCompileExec3922943926.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3922943926
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3922943926.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTryCompileExec3922943926.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3922943926 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Performing C SOURCE FILE Test HAVE_CONST_XEXT_ADDDISPLAY succeded with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3528260789/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3528260789.dir/build.make CMakeFiles/cmTryCompileExec3528260789.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3528260789.dir/src.c.o
+/usr/bin/gcc   -g -O3  -DHAVE_CONST_XEXT_ADDDISPLAY   -o CMakeFiles/cmTryCompileExec3528260789.dir/src.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3528260789
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3528260789.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DHAVE_CONST_XEXT_ADDDISPLAY    CMakeFiles/cmTryCompileExec3528260789.dir/src.c.o  -o cmTryCompileExec3528260789 -rdynamic -lX11 -lX11 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+Source file was:
+
+          #include <X11/Xlib.h>
+          #include <X11/Xproto.h>
+          #include <X11/extensions/Xext.h>
+          #include <X11/extensions/extutil.h>
+          extern XExtDisplayInfo* XextAddDisplay(XExtensionInfo* a,Display* b,_Xconst char* c,XExtensionHooks* d,int e,XPointer f);
+          int main(int argc, char **argv) {}
+Performing C SOURCE FILE Test HAVE_XGENERICEVENT succeded with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4044063094/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4044063094.dir/build.make CMakeFiles/cmTryCompileExec4044063094.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4044063094.dir/src.c.o
+/usr/bin/gcc   -g -O3  -DHAVE_XGENERICEVENT   -o CMakeFiles/cmTryCompileExec4044063094.dir/src.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec4044063094
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4044063094.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DHAVE_XGENERICEVENT    CMakeFiles/cmTryCompileExec4044063094.dir/src.c.o  -o cmTryCompileExec4044063094 -rdynamic -lX11 -lX11 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+Source file was:
+
+          #include <X11/Xlib.h>
+          int main(int argc, char **argv) {
+            Display *display;
+            XEvent event;
+            XGenericEventCookie *cookie = &event.xcookie;
+            XNextEvent(display, &event);
+            XGetEventData(display, cookie);
+            XFreeEventData(display, cookie); }
+Performing C SOURCE FILE Test HAVE_CONST_XDATA32 succeded with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1875606750/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1875606750.dir/build.make CMakeFiles/cmTryCompileExec1875606750.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1875606750.dir/src.c.o
+/usr/bin/gcc   -g -O3  -DHAVE_CONST_XDATA32   -o CMakeFiles/cmTryCompileExec1875606750.dir/src.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1875606750
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1875606750.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DHAVE_CONST_XDATA32    CMakeFiles/cmTryCompileExec1875606750.dir/src.c.o  -o cmTryCompileExec1875606750 -rdynamic -lX11 -lX11 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+Source file was:
+
+          #include <X11/Xlibint.h>
+          extern int _XData32(Display *dpy,register _Xconst long *data,unsigned len);
+          int main(int argc, char **argv) {}
+Determining if the function XkbKeycodeToKeysym exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1043100525/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1043100525.dir/build.make CMakeFiles/cmTryCompileExec1043100525.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1043100525.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=XkbKeycodeToKeysym   -o CMakeFiles/cmTryCompileExec1043100525.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1043100525
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1043100525.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=XkbKeycodeToKeysym    CMakeFiles/cmTryCompileExec1043100525.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1043100525 -rdynamic -lX11 -lX11 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Performing C SOURCE FILE Test HAVE_XINPUT2_MULTITOUCH succeded with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3284949498/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3284949498.dir/build.make CMakeFiles/cmTryCompileExec3284949498.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3284949498.dir/src.c.o
+/usr/bin/gcc   -g -O3  -DHAVE_XINPUT2_MULTITOUCH   -o CMakeFiles/cmTryCompileExec3284949498.dir/src.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3284949498
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3284949498.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DHAVE_XINPUT2_MULTITOUCH    CMakeFiles/cmTryCompileExec3284949498.dir/src.c.o  -o cmTryCompileExec3284949498 -rdynamic -lX11 -lX11 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+Source file was:
+
+            #include <X11/Xlib.h>
+            #include <X11/Xproto.h>
+            #include <X11/extensions/XInput2.h>
+            int event_type = XI_TouchBegin;
+            XITouchClassInfo *t;
+            Status XIAllowTouchEvents(Display *a,int b,unsigned int c,Window d,int f)
+            {
+              return (Status)0;
+            }
+            int main(int argc, char **argv) {}
+Performing C SOURCE FILE Test HAVE_VIDEO_OPENGL succeded with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1214591906/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1214591906.dir/build.make CMakeFiles/cmTryCompileExec1214591906.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1214591906.dir/src.c.o
+/usr/bin/gcc   -g -O3  -DHAVE_VIDEO_OPENGL   -o CMakeFiles/cmTryCompileExec1214591906.dir/src.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1214591906
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1214591906.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DHAVE_VIDEO_OPENGL    CMakeFiles/cmTryCompileExec1214591906.dir/src.c.o  -o cmTryCompileExec1214591906 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+Source file was:
+
+        #include <GL/gl.h>
+        #include <GL/glx.h>
+        int main(int argc, char** argv) {}
+Performing C SOURCE FILE Test HAVE_INPUT_EVENTS succeded with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec223125903/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec223125903.dir/build.make CMakeFiles/cmTryCompileExec223125903.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec223125903.dir/src.c.o
+/usr/bin/gcc   -g -O3  -DHAVE_INPUT_EVENTS   -o CMakeFiles/cmTryCompileExec223125903.dir/src.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec223125903
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec223125903.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DHAVE_INPUT_EVENTS    CMakeFiles/cmTryCompileExec223125903.dir/src.c.o  -o cmTryCompileExec223125903 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+Source file was:
+
+        #include <linux/input.h>
+        #ifndef EVIOCGNAME
+        #error EVIOCGNAME() ioctl not available
+        #endif
+        int main(int argc, char** argv) {}
+Performing C SOURCE FILE Test HAVE_PTHREADS succeded with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1203333200/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1203333200.dir/build.make CMakeFiles/cmTryCompileExec1203333200.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1203333200.dir/src.c.o
+/usr/bin/gcc   -g -O3  -DHAVE_PTHREADS -D_REENTRANT -pthread   -o CMakeFiles/cmTryCompileExec1203333200.dir/src.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1203333200
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1203333200.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DHAVE_PTHREADS -D_REENTRANT -pthread    CMakeFiles/cmTryCompileExec1203333200.dir/src.c.o  -o cmTryCompileExec1203333200 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+Return value: 1
+Source file was:
+
+        #include <pthread.h>
+        int main(int argc, char** argv) {
+          pthread_attr_t type;
+          pthread_attr_init(&type);
+          return 0;
+        }
+Performing C SOURCE FILE Test HAVE_RECURSIVE_MUTEXES succeded with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec385902054/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec385902054.dir/build.make CMakeFiles/cmTryCompileExec385902054.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec385902054.dir/src.c.o
+/usr/bin/gcc   -g -O3  -DHAVE_RECURSIVE_MUTEXES -D_REENTRANT -pthread   -o CMakeFiles/cmTryCompileExec385902054.dir/src.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec385902054
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec385902054.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DHAVE_RECURSIVE_MUTEXES -D_REENTRANT -pthread    CMakeFiles/cmTryCompileExec385902054.dir/src.c.o  -o cmTryCompileExec385902054 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+Source file was:
+
+        #include <pthread.h>
+        int main(int argc, char **argv) {
+          pthread_mutexattr_t attr;
+          pthread_mutexattr_settype(&attr, PTHREAD_MUTEX_RECURSIVE);
+          return 0;
+        }
+Performing C SOURCE FILE Test HAVE_PTHREADS_SEM succeded with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1907201530/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1907201530.dir/build.make CMakeFiles/cmTryCompileExec1907201530.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1907201530.dir/src.c.o
+/usr/bin/gcc   -g -O3  -DHAVE_PTHREADS_SEM -D_REENTRANT -pthread   -o CMakeFiles/cmTryCompileExec1907201530.dir/src.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1907201530
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1907201530.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DHAVE_PTHREADS_SEM -D_REENTRANT -pthread    CMakeFiles/cmTryCompileExec1907201530.dir/src.c.o  -o cmTryCompileExec1907201530 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+Source file was:
+#include <pthread.h>
+                                 #include <semaphore.h>
+                                 int main(int argc, char **argv) { return 0; }
+Performing C SOURCE FILE Test HAVE_SEM_TIMEDWAIT succeded with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3857678279/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3857678279.dir/build.make CMakeFiles/cmTryCompileExec3857678279.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3857678279.dir/src.c.o
+/usr/bin/gcc   -g -O3  -DHAVE_SEM_TIMEDWAIT -D_REENTRANT -pthread   -o CMakeFiles/cmTryCompileExec3857678279.dir/src.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3857678279
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3857678279.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DHAVE_SEM_TIMEDWAIT -D_REENTRANT -pthread    CMakeFiles/cmTryCompileExec3857678279.dir/src.c.o  -o cmTryCompileExec3857678279 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+Source file was:
+
+              #include <pthread.h>
+              #include <semaphore.h>
+              int main(int argc, char **argv) {
+                  sem_timedwait(NULL, NULL);
+                  return 0;
+              }
+Performing C SOURCE FILE Test HAVE_PTHREAD_SPINLOCK succeded with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3800578675/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3800578675.dir/build.make CMakeFiles/cmTryCompileExec3800578675.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3800578675.dir/src.c.o
+/usr/bin/gcc   -g -O3  -DHAVE_PTHREAD_SPINLOCK -D_REENTRANT -pthread   -o CMakeFiles/cmTryCompileExec3800578675.dir/src.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3800578675
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3800578675.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DHAVE_PTHREAD_SPINLOCK -D_REENTRANT -pthread    CMakeFiles/cmTryCompileExec3800578675.dir/src.c.o  -o cmTryCompileExec3800578675 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+Source file was:
+
+          #include <pthread.h>
+          int main(int argc, char** argv) {
+              pthread_spin_trylock(NULL);
+              return 0;
+          }
+Determining if the function pthread_setname_np exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3065081270/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3065081270.dir/build.make CMakeFiles/cmTryCompileExec3065081270.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3065081270.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=pthread_setname_np -D_REENTRANT -pthread   -o CMakeFiles/cmTryCompileExec3065081270.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3065081270
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3065081270.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3  -DCHECK_FUNCTION_EXISTS=pthread_setname_np -D_REENTRANT -pthread    CMakeFiles/cmTryCompileExec3065081270.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3065081270 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the include file linux/version.h exists passed with the following output:
+Change Dir: /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3221697946/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3221697946.dir/build.make CMakeFiles/cmTryCompileExec3221697946.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3221697946.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -g -O3     -o CMakeFiles/cmTryCompileExec3221697946.dir/CheckIncludeFile.c.o   -c /home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3221697946
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3221697946.dir/link.txt --verbose=1
+/usr/bin/gcc   -g -O3      CMakeFiles/cmTryCompileExec3221697946.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3221697946 -rdynamic 
+make[1]: ディレクトリ `/home/tk/MMDAI/SDL2-src/build-release/CMakeFiles/CMakeTmp' から出ます
+
+

@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/test-core_texture_2d.dir/core_texture_2d.cpp.o  -o test-core_texture_2d -rdynamic 

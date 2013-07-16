@@ -1,0 +1,11 @@
+#define __TBB_VERSION_STRINGS(N) \
+#N": BUILD_HOST		tk-Aspire-3820 (i686)" ENDL \
+#N": BUILD_OS		Ubuntu 12.10" ENDL \
+#N": BUILD_KERNEL	Linux 3.5.0-23-generic #35-Ubuntu SMP Thu Jan 24 13:05:29 UTC 2013" ENDL \
+#N": BUILD_GCC		" ENDL \
+#N": BUILD_LIBC	2.15" ENDL \
+#N": BUILD_LD		" ENDL \
+#N": BUILD_TARGET	ia32 on cc4.7_libc2.15_kernel3.5.0" ENDL \
+#N": BUILD_COMMAND	g++ -DDO_ITT_NOTIFY -g -O2 -DUSE_PTHREAD -m32 -march=pentium4 -fPIC -D__TBB_BUILD=1 -Wall -Wno-parentheses -Wno-non-virtual-dtor -I../../src -I../../src/rml/include -I../../include" ENDL \
+
+#define __TBB_DATETIME "2013年 7月 16日 火曜日 01:55:50 UTC"

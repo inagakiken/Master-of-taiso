@@ -1,0 +1,6 @@
+/home/tk/MMDAI/zlib-src/build-release/CMakeFiles/example.dir
+/home/tk/MMDAI/zlib-src/build-release/CMakeFiles/example64.dir
+/home/tk/MMDAI/zlib-src/build-release/CMakeFiles/minigzip.dir
+/home/tk/MMDAI/zlib-src/build-release/CMakeFiles/minigzip64.dir
+/home/tk/MMDAI/zlib-src/build-release/CMakeFiles/zlib.dir
+/home/tk/MMDAI/zlib-src/build-release/CMakeFiles/zlibstatic.dir

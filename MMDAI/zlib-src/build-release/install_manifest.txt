@@ -1,0 +1,8 @@
+/home/tk/MMDAI/zlib-src/build-release/install-root/lib/libz.so.1.2.7
+/home/tk/MMDAI/zlib-src/build-release/install-root/lib/libz.so.1
+/home/tk/MMDAI/zlib-src/build-release/install-root/lib/libz.so
+/home/tk/MMDAI/zlib-src/build-release/install-root/lib/libz.a
+/home/tk/MMDAI/zlib-src/build-release/install-root/include/zconf.h
+/home/tk/MMDAI/zlib-src/build-release/install-root/include/zlib.h
+/home/tk/MMDAI/zlib-src/build-release/install-root/share/man/man3/zlib.3
+/home/tk/MMDAI/zlib-src/build-release/install-root/share/pkgconfig/zlib.pc

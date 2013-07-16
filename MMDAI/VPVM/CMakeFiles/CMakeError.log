@@ -1,0 +1,90 @@
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/tk/MMDAI/VPVM/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3706382246/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3706382246.dir/build.make CMakeFiles/cmTryCompileExec3706382246.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/VPVM/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/VPVM/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3706382246.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec3706382246.dir/CheckSymbolExists.cxx.o -c /home/tk/MMDAI/VPVM/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/tk/MMDAI/VPVM/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: 関数 ‘int main(int, char**)’ 内:
+/home/tk/MMDAI/VPVM/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: エラー: ‘Q_WS_WIN’ was not declared in this scope
+make[1]: ディレクトリ `/home/tk/MMDAI/VPVM/CMakeFiles/CMakeTmp' から出ます
+make[1]: *** [CMakeFiles/cmTryCompileExec3706382246.dir/CheckSymbolExists.cxx.o] エラー 1
+make: *** [cmTryCompileExec3706382246/fast] エラー 2
+
+File /home/tk/MMDAI/VPVM/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/tk/MMDAI/VPVM/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3890752364/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3890752364.dir/build.make CMakeFiles/cmTryCompileExec3890752364.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/VPVM/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/VPVM/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3890752364.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec3890752364.dir/CheckSymbolExists.cxx.o -c /home/tk/MMDAI/VPVM/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/tk/MMDAI/VPVM/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: 関数 ‘int main(int, char**)’ 内:
+/home/tk/MMDAI/VPVM/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: エラー: ‘Q_WS_QWS’ was not declared in this scope
+make[1]: *** [CMakeFiles/cmTryCompileExec3890752364.dir/CheckSymbolExists.cxx.o] エラー 1
+make[1]: ディレクトリ `/home/tk/MMDAI/VPVM/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec3890752364/fast] エラー 2
+
+File /home/tk/MMDAI/VPVM/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/tk/MMDAI/VPVM/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3191107936/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3191107936.dir/build.make CMakeFiles/cmTryCompileExec3191107936.dir/build
+make[1]: ディレクトリ `/home/tk/MMDAI/VPVM/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tk/MMDAI/VPVM/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3191107936.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec3191107936.dir/CheckSymbolExists.cxx.o -c /home/tk/MMDAI/VPVM/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/tk/MMDAI/VPVM/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: 関数 ‘int main(int, char**)’ 内:
+/home/tk/MMDAI/VPVM/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: エラー: ‘Q_WS_MAC’ was not declared in this scope
+make[1]: *** [CMakeFiles/cmTryCompileExec3191107936.dir/CheckSymbolExists.cxx.o] エラー 1
+make[1]: ディレクトリ `/home/tk/MMDAI/VPVM/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec3191107936/fast] エラー 2
+
+File /home/tk/MMDAI/VPVM/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
